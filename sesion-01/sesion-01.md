@@ -72,14 +72,17 @@ Inteligencis social de los producto: Carla Diana
 
 #### actividad
 
-- [miró](https://miro.com/welcomeonboard/RVhrem1salRHVFhFM1U5MGtZK3U1TnZZSjliZDhiR1FuTUdZenR4R3A1K0k5YXRRemZ6bzFhT0xHNVN3RWRSa0t5M2JQVUJnUmdMd3dmNUdtU0dybFZEVU9FQ1VPcU5HdVdIL3hnNE80czk2dURjTUtGd1krMmRWVGNzaS9Td2VzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=84150621800)
+- [miró](https://miro.com/app/board/uXjVGzJY0NM=/)
 
 ### encargo
 
-- una ppt del grupo armado,, que incluya una seccion para cada integrante del grupo.
+- una ppt del grupo armado, que incluya una seccion para cada integrante del grupo.
 
-Setear la base temática, delimitando el area de investigación. 
-Entenderlo como una especie de diagrama de venn sus areas siendo: ambito discioplinar del disñeo, temática que me motive, tecnologías. Tomando en cuenta las 3 áreas mencionadas del diagrama.
+- Setear la base temática, delimitando el area de investigación.
+
+- Entenderlo como una especie de diagrama de venn sus areas siendo: ambito discioplinar del disñeo, temática que me motive, tecnologías. Tomando en cuenta las 3 áreas mencionadas del diagrama.
+
+- 5 minutos paera la parte general, 2-3 minutos por persona en la parte individual.
 
 ### referencias
 
