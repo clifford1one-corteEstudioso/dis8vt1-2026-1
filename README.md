@@ -1,5 +1,5 @@
-# seminario-phygital
-seminario con Sergio y Simón
+# dis8vt1-2026-1
+Seminario de título Phygital. dictado por Sergio Majluf y Simón Gallardo.
 
 miércoles de 10:00 - 19:00
 
