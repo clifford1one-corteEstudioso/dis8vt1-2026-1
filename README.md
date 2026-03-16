@@ -5,6 +5,8 @@ miércoles de 10:00 - 19:00
 
 Objetivo: pararnos en este valle y decidir hacia donde vamos a avanzar
 
+[drive para subir entregables](https://drive.google.com/drive/folders/1jIyJ9kZFrPwYgnfj8zL6q292JE66V1du?usp=sharing)
+
 ## rúbrica de evaluación
 
 - formulacióin: definir (20-45%)
