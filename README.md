@@ -9,6 +9,10 @@ Objetivo: pararnos en este valle y decidir hacia donde vamos a avanzar
 
 [bibliografía curso](https://drive.google.com/drive/folders/1-2mpQcHV84n47bmZvqsSnC1RrMVZXzeW?usp=sharing)
 
+[drive del curso de todo](https://docs.google.com/document/d/12oR9OxTpcL5-PwCVMN2GuxyKW579z19dTb72MG2K2bA/edit?usp=drive_link)
+
+Tesis locales (año anterior): [Disponibles para revisar el desarrollo de títulos y estructura de presentaciones.](https://drive.google.com/drive/folders/11TeVRo5omao7RwYS0rm6lk3Igisw5wZ-)
+
 semanas 5-7: formulación de proyecto
 
 ## rúbrica de evaluación

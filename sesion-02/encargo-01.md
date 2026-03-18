@@ -29,7 +29,7 @@ Junto con agradecer su participación en nuestra primera sesión, les comparto l
 
     Tesis locales (año anterior): [Disponibles para revisar el desarrollo de títulos y estructura de presentaciones.](https://drive.google.com/drive/folders/11TeVRo5omao7RwYS0rm6lk3Igisw5wZ-)
 
-    Tesis MIT: [Repositorio sugerido para explorar proyectos de investigación internacionales.](https://dspace.mit.edu/handle/1721.1/131023)
+    Tesis MIT: [Repositorio sugerido para explorar proyectos de investigación internacionales.](https://dspace.mit.edu/discover?field=department&scope=1721.1/7582&filtertype=department&filter_relational_operator=authority&filter=845e039612ff85b8394b5ef42a7f3aa7)
 
     Bibliografía: [Listado de textos específicos para profundizar en la materia.](https://drive.google.com/drive/folders/1-2mpQcHV84n47bmZvqsSnC1RrMVZXzeW)
 
