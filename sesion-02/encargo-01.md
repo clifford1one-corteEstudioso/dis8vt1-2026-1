@@ -52,3 +52,14 @@ Esta es una inevstigación que realicé el semestre pasado para postular a [Prim
 encargo ft emi
 
 ![encargo-01-borrador](https://docs.google.com/document/d/1_6Q5JURzSYkCJc4g-3tSGypExOzwnaY6AfD7QSpDWl8/edit?usp=sharing)
+
+## referentes
+
+- [Dopamine Overload](https://github.com/clifford1one/dopamineOverload)
+- <https://blog.cognifit.com/es/que-es-la-dopamina-y-para-que-sirve/>
+- <https://www.unobravo.com/es/blog/dopamina-y-serotonina>
+- <https://notebooklm.google.com/notebook/f2d6a516-58e6-4521-b13a-133afe1341c5>
+- <https://www.cigna.com/es-us/knowledge-center/hw/dopamina-std16478>
+- <https://www.verywellmind.com/classical-vs-operant-conditioning-2794861>
+- <https://www.simplypsychology.org/operant-conditioning.html>
+- <>

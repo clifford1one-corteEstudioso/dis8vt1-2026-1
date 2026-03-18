@@ -7,6 +7,10 @@ Objetivo: pararnos en este valle y decidir hacia donde vamos a avanzar
 
 [drive para subir entregables](https://drive.google.com/drive/folders/1jIyJ9kZFrPwYgnfj8zL6q292JE66V1du?usp=sharing)
 
+[bibliografía curso](https://drive.google.com/drive/folders/1-2mpQcHV84n47bmZvqsSnC1RrMVZXzeW?usp=sharing)
+
+semanas 5-7: formulación de proyecto
+
 ## rúbrica de evaluación
 
 - formulacióin: definir (20-45%)
@@ -17,7 +21,7 @@ Objetivo: pararnos en este valle y decidir hacia donde vamos a avanzar
 
 - abordar problemas complejos desde una perspectiva interdisciplinaria(esta definición se conecta lo que hoy conocemos como *innovación*)
 - validación de hipótesis
-- prototipos tangibles y concpetuales basados en interacción y usabilidad
+- prototipos tangibles y conceptuales basados en interacción y usabilidad
 
 ### relevante
 
