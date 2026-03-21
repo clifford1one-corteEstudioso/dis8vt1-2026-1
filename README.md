@@ -5,13 +5,17 @@ miércoles de 10:00 - 19:00
 
 Objetivo: pararnos en este valle y decidir hacia donde vamos a avanzar
 
+[DRIVE DE TODOO](https://drive.google.com/drive/folders/1p-fSNP_BGmKcRmnVKeN1rD6o3HMJeRHZ?usp=sharing)
+
 [drive para subir entregables](https://drive.google.com/drive/folders/1jIyJ9kZFrPwYgnfj8zL6q292JE66V1du?usp=sharing)
 
 [bibliografía curso](https://drive.google.com/drive/folders/1-2mpQcHV84n47bmZvqsSnC1RrMVZXzeW?usp=sharing)
 
-[drive del curso de todo](https://docs.google.com/document/d/12oR9OxTpcL5-PwCVMN2GuxyKW579z19dTb72MG2K2bA/edit?usp=drive_link)
+[docs de feedback](https://docs.google.com/document/d/12oR9OxTpcL5-PwCVMN2GuxyKW579z19dTb72MG2K2bA/edit?usp=drive_link)
 
-Tesis locales (año anterior): [Disponibles para revisar el desarrollo de títulos y estructura de presentaciones.](https://drive.google.com/drive/folders/11TeVRo5omao7RwYS0rm6lk3Igisw5wZ-)
+Tesis locales Y LOGOS (año anterior): [Disponibles para revisar el desarrollo de títulos y estructura de presentaciones.](https://drive.google.com/drive/folders/11TeVRo5omao7RwYS0rm6lk3Igisw5wZ-)
+
+[Entrevista semiestrcuturada formato y ejemplo](https://docs.google.com/document/d/1P-Y4BEwyEIRosO3JZUudabAwnFy56XhOVtgrZiKHGFw/edit?usp=sharing)
 
 semanas 5-7: formulación de proyecto
 
