@@ -1,4 +1,5 @@
 # dis8vt1-2026-1
+
 Seminario de título Phygital. dictado por Sergio Majluf y Simón Gallardo.
 
 miércoles de 10:00 - 19:00
@@ -19,6 +20,23 @@ Tesis locales Y LOGOS (año anterior): [Disponibles para revisar el desarrollo d
 
 semanas 5-7: formulación de proyecto
 
+## hitos planificación semestral
+
+| HITO | SEMANAS | MES | ENTREGABLE / ACTIVIDAD | TIPO |
+| ------ | --------- | ----- | ------------------------ | ------ |
+| H1 — Encuadre | Sem 1–4 | Mar | Presentación oral 5 min (Guía N°3) + mapa de ámbitos | Formativa |
+| H2 — Formulación | Sem 5–7 | Abr | Problema + hipótesis + metodología escritos | Formativa |
+| H3 — Investigación | Sem 8–11 | May | Marco teórico + referentes + usuario + bibliografía | Formativa |
+| H4 — Propuesta | Sem 12–13 | Jun | Presentación 10 min + 2 propuestas proyectuales + borrador memoria | Formativa |
+| PASE | Sem 14 | Jun | Memoria borrador completa + autoevaluación rúbrica | Habilitante |
+| H5 — Cierre | Sem 15–18 | Jun–Jul | Memoria final 5.000 palabras + ensayo presentación 20 min | Sumativa |
+| H6 — Examen | Sem 19–20 | Jul | Examen ante comisión: presentación 20 min + memoria final | Calificada |
+
+### fechas clave
+
+- 17 de junio. PASE: Revisión habilitante
+- 14-25 de julio. Examen Final
+
 ## rúbrica de evaluación
 
 - formulacióin: definir (20-45%)
@@ -33,7 +51,7 @@ semanas 5-7: formulación de proyecto
 
 ### relevante
 
-- https://www.ideo.org/
+- <https://www.ideo.org/>
 
 ### bibliografia
 
