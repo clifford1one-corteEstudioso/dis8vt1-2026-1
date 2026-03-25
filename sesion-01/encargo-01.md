@@ -53,16 +53,14 @@ encargo ft emi
 
 ![encargo-01-borrador](https://docs.google.com/document/d/1_6Q5JURzSYkCJc4g-3tSGypExOzwnaY6AfD7QSpDWl8/edit?usp=sharing)
 
-
 1 ppt.
 3 partes: grupal, individual1, individual2
 eje temático: adicción, celular, dopamina
 
-- parte emi:
-
-    - contexto: código y cotidiano. El encuentro entre el código y lo cotidiano. Emociones: sorpresa, "inesperamietno"
-    - 
-
-- parte grupal:
-
-    - 
+    - parte emi:
+        - contexto: código y cotidiano. El encuentro entre el código y lo cotidiano. Emociones: sorpresa, "inesperamietno"
+    - parte grupal:
+        - dopamine overload
+    - parte grupal:
+        - diseño con perspectiva de dopamina
+        

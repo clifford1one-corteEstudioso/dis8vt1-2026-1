@@ -18,6 +18,8 @@ Tesis locales Y LOGOS (año anterior): [Disponibles para revisar el desarrollo d
 
 [Entrevista semiestrcuturada formato y ejemplo](https://docs.google.com/document/d/1P-Y4BEwyEIRosO3JZUudabAwnFy56XhOVtgrZiKHGFw/edit?usp=sharing)
 
+Tesis MIT: [Repositorio sugerido para explorar proyectos de investigación internacionales.](https://dspace.mit.edu/handle/1721.1/131023)
+
 semanas 5-7: formulación de proyecto
 
 ## hitos planificación semestral
