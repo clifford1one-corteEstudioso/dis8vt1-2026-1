@@ -203,6 +203,12 @@ perfil ideal: profesor que haga clase a niñes de 0-8 años, que lleve más de 1
 
 ¿en términos de volver a concentrarse en la clase después del recreo, crees que hay alguna diferencia entre niñes que usan su celular en el recreo respecto a los que juegan a la pelota?
 
-¿entre niñes, jovenes y adultos, crees que alguno de ellos es más propenso a querer pasar largos períodos en el celular?
+¿entre niñes, jóvenes y adultos, crees que alguno de ellos es más propenso a querer pasar largos períodos en el celular?
 
 ¿a qué crees que se debe esto?
+
+### tarea ?
+
+- diagrama de venn con enfasís en conexiones de a 2
+- buscar tesis referentes. Que hayan abordado mi misma problemática pero desde otro campo(ej, desde la sicología, medicina, etc)
+- marco teórico, hacer una tabal comparativa donde marque en que ámbitos me agarro de cada tesis.
