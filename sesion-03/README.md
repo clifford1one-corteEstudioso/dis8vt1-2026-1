@@ -185,6 +185,7 @@ perfil ideal: profesor que haga clase a niñes de 0-8 años, que lleve más de 1
 ### preguntas
 
 #### conocerse
+
 ¿hace cuánto haces clase?
 
 ¿crees que la transición del no uso, al uso generalizado de celulares en niñes fue paulatina o inmediata?
@@ -211,4 +212,4 @@ perfil ideal: profesor que haga clase a niñes de 0-8 años, que lleve más de 1
 
 - diagrama de venn con enfasís en conexiones de a 2
 - buscar tesis referentes. Que hayan abordado mi misma problemática pero desde otro campo(ej, desde la sicología, medicina, etc)
-- marco teórico, hacer una tabal comparativa donde marque en que ámbitos me agarro de cada tesis.
+- marco teórico, hacer una tabla comparativa donde marque en que ámbitos me agarro de cada tesis.
