@@ -45,6 +45,7 @@ el estudio, publicado en la revista science en 2014 explora fenómenos muy inter
 - dopamina: como las apps están diseñadas para pillarte volando bajo, para acudir a ese lado menos racional, más instintivo.
 
 - <https://www.science.org/doi/10.1126/science.1250830>
+- <https://es.wikipedia.org/wiki/Usabilidad>
 
 #### ética + neurociencia/sicología
 
