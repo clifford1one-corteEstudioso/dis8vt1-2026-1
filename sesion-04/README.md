@@ -114,3 +114,54 @@ estas 4 etapas pueden ser útiles para crear o eliminar hábitos
 
 quizas, lo ético sería lo contrario, estudiar el cerebro para entender el punto justo en qu la usabilidad comienza a volverse un problema.
 
+## clase
+
+no podemos entender el ideo solo como el resultado de lo que hacemos. ¿cuál es nuestro rol en la sociedad en la que participamos?
+
+pasos del semianrio:
+
+1. encuadre
+2. formulación
+3. propuesta
+4. definición
+
+Cada vez que diseñamos algo, estanmos dejando una herencia al mundo. cuando no estemos, Vamos a dejar el mundo mejor de lo que estaba, pero de lo que estaba o igual?.
+
+### actores de mi tema
+
+![Borrador del mapa de actores](./imgs/mapa-actores-croquis.jpg)
+
+### referentes de diseño y ética
+
+    ```txt
+    **Ética en Diseño — el diseñador como agente responsable**
+
+    **Mike Monteiro — Ruined by Design (2019)**
+    El más directo y combativo. Monteiro argumenta que los diseñadores no son ejecutores inocentes: tienen agencia, y por tanto responsabilidad sobre lo que diseñan y para quién. La pregunta central del libro es "¿a quién sirve realmente este diseño?" Muy útil para proyectos donde aparece la tensión entre cliente, usuario y sociedad.
+
+    **Victor Papanek — Design for the Real World (1971)**
+    El antecedente histórico ineludible. Papanek acusó a la profesión de diseñar para mercados en lugar de necesidades reales, y planteó la responsabilidad social del diseño décadas antes de que fuera moda. Shedroff lo cita directamente como precursor.
+
+    **Don Norman — Design of Everyday Things (1988) + trabajos posteriores sobre "diseño para la humanidad"**
+    Desde una postura más institucional, Norman ha evolucionado hacia preguntas sobre para qué y para quién diseñamos a escala sistémica. Su trabajo reciente sobre complexity y diseño en el siglo XXI es pertinente.
+    ```
+
+## boost seminario
+
+una ia entrenada por un modelo especializado. Situada en el contexto de seminario phygital. Son 10 pasos, y los output.
+
+### relevante
+
+- [el show de los libros]()
+- ideo
+- tom kelley & david kelley
+- Nathan Shedroff: uno de los primero en escribir sobre el concpto de UX desde el diseño
+- [Desgin is the problem, Nathan Shedroff](): ¿por qué existimos? a lo mejor aportamos a dejar la cagá
+- xerox
+- llamado a proyectos de innovación: <https://www.congresodesafiospublicos.cl/posters-innovacion>
+- nuestra generación como la generación cuyo proceso de maduración coincidió con la maduración de la tecnología y su introducción a nuestra sociedad.
+- marco teórico: son como limites de la investigación, todo lo que sea pertinente para la invesitigación debe estar dentro dle marco teórico.
+- W3
+- ISO
+- IEEE
+- lawsofux.com
