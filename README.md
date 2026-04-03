@@ -6,6 +6,8 @@ miércoles de 10:00 - 19:00
 
 Objetivo: pararnos en este valle y decidir hacia donde vamos a avanzar
 
+~siempre que avanzo en algo fuera del horario de clase, lo pongo en la carpeta de la sesión siguiente~
+
 [DRIVE DE TODOO](https://drive.google.com/drive/folders/1p-fSNP_BGmKcRmnVKeN1rD6o3HMJeRHZ?usp=sharing)
 
 [drive para subir entregables](https://drive.google.com/drive/folders/1jIyJ9kZFrPwYgnfj8zL6q292JE66V1du?usp=sharing)
