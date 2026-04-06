@@ -13,3 +13,13 @@ venn members:
 | dopamina | Davis |
 | ética | Tristan Harris |
 | ux Ui | TODO |
+
+## punteo
+
+cosas a mencionar:
+
+- formación de hábitos
+- dopamina
+- capitalismo. Es díficil competir en el mercado, con prácticas éticas? no aprovecharte de esos insights te deja es desventaja?
+- deceptive patterns
+- 
