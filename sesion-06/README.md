@@ -1,5 +1,7 @@
 # sesion-06
 
+[docs de mi encargo](https://docs.google.com/document/d/1b2Jwj0-2EThQBxA4KrHxSup5wm_H4yr7nP6R9idXmaY/edit?usp=sharing)
+
 | personita | problemática general | arista-1 | arista-2 | arista-3 | arista-4 | arista-5 |
 | - | - | - | - | - | - | - |
 | sebastianSaez1003 | en la actualidad existe un preocupante crecimiento de los dolores lumbares en niñes| existen problemas posturales a nivel global | en chile hay un grado más alto de dolores posturales | los dolores lumbares dejaron de ser cosa de adultos. EN la actualidad tbn afectan a niñes | - | - |
