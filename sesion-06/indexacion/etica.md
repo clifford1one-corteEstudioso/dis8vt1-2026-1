@@ -126,7 +126,7 @@ La atención como el bien más escazo. Los seres humanos somos seres seriales, e
 
 - Transforman al individuo en un sujeto de rendimiento que se explota a sí mismo voluntariamente para seguir consumiendo y produciendo.(chul-hang, B)
 
-- mientrás más información, menos atención.(herbert)
+- mientras más información, menos atención.(herbert)
 
 - tipos de atención(davenport): *generada por notebookLm*
 
@@ -178,16 +178,7 @@ En el contexto socio-económico en el que vivimos, la plataforma principal de co
 
 La transición de una sociedad física, hacia una sociedad digital, generó grandes impactos en múltiples aspectos de la sociedad, uno de los más afectados, fue el comercio.
 
-La transición hacia una era digital ha afectado al comercio en muchas aristas. Una de ellas es la habilidad para comprar sin estar físicamente en la tienda. Lo cual elimina varias de las fricciones que se viven al ir a la tienda:
-
-| tipo de fricción | descripción | caso online | efecto |
-| - | - | - | - |
-| física | entrar y/o salir de la tienda requiere esfuerzo físico y mental | a click de distancia para irte | tener que relizar un esfuerzo para irte, genera una fricción |
-| temporal-logística | muchas veces hay que hacer fila para comprar | no hay una espera tangible para pagar | haber hecho la fila por un largo tiempo, genera un fricción por irte. por haber esperado ya un rato y tbn por las opiniones de otres |
-| visibilidad y vigilancia | la presencia y ayuda del vendedor propone un compromiso con la compra por parte del consumidor | parecieras estar solo, por lo que no hay quien te juzgue | haberle pedido ayuda al vendedor genera cierto compromiso por efectuar la compra |
-| compromiso | todas los esfuerzos que hay que hacer para comprar un producto, generan cierta inercia para evitar arrepentimiento | es tan fácil entrar que no genera ningún compromiso | mientras más tuviste que hacer para llegar a este punto, más difícil será dejarlo todo de la lado |
-
-esta tabla no me convence. Lo resumo en 3 ámbitos:
+La transición hacia una era digital ha afectado al comercio en muchas aristas. Una de ellas es la habilidad para comprar sin estar físicamente en la tienda. Lo cual elimina varias de las fricciones que se viven al ir a la tienda, estas pueden ser separadas en 3 grupos
 
 1. el compromiso social:
     - la presencia del vendedor y su prestación de ayuda, puede impulsar al cliente a comprar o permanecer más tiempo en la tienda.
@@ -195,6 +186,61 @@ esta tabla no me convence. Lo resumo en 3 ámbitos:
     - límites, cruces y umbrales, por vallas, zanjas y muros.(Chul Hang)
 3. inercia:
     - haber hecho ciertos esfuerzos para llegar a algún lugar o momento, genera cierta inercia, por seguir y no sentir que tu esfuerzo fue en vano.
+
+- justificaciones
+
+1. el compromiso social
+
+    ```txt
+        Davenport & Beck: Si hay un sector que depende de la atención voluntaria para prosperar, ése es el comercio electrónico. El “cibercliente” acude al sitio web sólo cuando quiere y puede irse sin tener que comprar nada, aunque sólo sea por no quedar mal con el vendedor. Los sitios web que captan la atención de los usuarios por más tiempo son los que más posibilidades tienen de(Davenport & Beck)
+    ```
+
+    a diferencia del comercio presencial, el cliente digital acude a una web solo cuando quiere y puede irse sin comprar nada
+
+    ```txt
+        Zuboff: El anticontrato no es un espacio de relaciones contractuales, sino una ejecución unilateral que vuelve innecesarias tales relaciones en sí. El anticontrato desocializa el contrato y fabrica certeza mediante la sustitución de las promesas, el diálogo, los significados compartidos, la solución de problemas, la resolución de disputas y la confianza (en definitiva, de todas aquellas manifestaciones mismas de la solidaridad y la capacidad de acción humanas que se habían ido institucionalizando progresivamente a lo largo de milenios en el conocido concepto de contrato) por unos meros procedimientos automatizados. El anticontrato soslaya todo ese trabajo social para primar la coacción, y lo hace en aras de lograr unos productos predictivos más lucrativos, que se aproximen mejor a la realidad observada y, por consiguiente, garanticen resultados.
+    ```
+
+    la mediación informática sustituye los procesos sociales de diálogo, significados compartidos y confianza. Se elimina la fricción de la interacción humana
+
+2. barreras físicas:
+
+    ```txt
+        Chul Hang: marcado por límites, cruces y umbrales, por vallas, zanjas y muros. Estos impiden el proceso de cambio e intercambio universal.
+    ```
+
+    estos objetos físicos impiden el intercambio universal
+
+    ```txt
+        Zuboff: hicieron bandera de la libertad en el plano público. Un elemento clave de la estrategia prolibertad de Google fue la capacidad que la compañía demostró para detectar, construir y reclamar territorios sociales inéditos que no estaban sujetos aún al imperio de la ley. 
+    ```
+
+    las leyes físicas del munod real no hacen efecto en el mundo digital
+
+3. inercia
+
+    ```txt
+        davenport y beck: Nadie se va de una sala de cine. ¿Por qué? Primero porque las salas se benefician de nuestra atención obligada (después de todo, hemos
+    pagado por entrar)
+    ```
+
+    una vez ya hicimos un esfuerzo(en este caso monetario) somos menos propicios a irnos
+
+    ```txt
+        tim wu: Endless content feeds that prevent users from reaching a natural stopping point. Notifications and alerts: Interruptions that draw users back into apps.
+    ```
+
+### 1.2.1 publicidad dirigida
+
+debido a esta nueva realidad, donde los usuaries tiene más facilidad que nunca para dejar de lado una eventual compra. Los diseñadores comenzaron a buscar tácticas para evitar este fenómeno.
+
+Para ello, se utilizaron tácticas para que la fricción sea igual de smooth, para irse de la página como para efectuar la compra.
+
+Paralelamente, con la invención de esta nueva plataforma, con una nueva forma de navegación y uso, nunca antes vista, comenzó el fenómeno de la usabilidad.
+
+titulo: usabilidad
+
+- [usabilidad](./disenoUxUi.md)
 
 ## 1.3. infraestructura
 
