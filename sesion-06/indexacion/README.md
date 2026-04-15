@@ -28,3 +28,13 @@ Biología: No conocemos las consecuencias de la exposición constante a redes so
 Diseño UX: La falta de regulación frente a prácticas predatorias por parte de empresas de medios digitales.
 
 Ética: El dilema ético que representa el estudio del cerebro, con fines de lucro por parte de las empresas.
+
+## clase hoy
+
+- Marshall McLuhan: el filósofo que predijo las redes sociales. "El medio es el mensaje" - la comunicacion como sujeto de estudio
+
+- investigar la web 2.0. Cuando el internet se volvió comunidad
+
+- a medidad que se fue reduciendo la longitud del mensaje, antes eran diarios, depues columnas, depues blogs, despues tweets, dps notificaciones. Y nosotros comnezamos a personalizar el medio para que tenga mas info. Ejemplo distintos osnido de notif, segun longitud sabes si es llamada o mensaje, etc.
+
+- alvin toeffler
