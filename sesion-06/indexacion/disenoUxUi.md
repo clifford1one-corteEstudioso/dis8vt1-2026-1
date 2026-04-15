@@ -107,4 +107,5 @@ la usabilidad no solo actúa como un impulsor de la adopción tecnológica, si n
 
 los estudios concluyen que la utilidad percibida es más influyente que la facilidad de uso para la adopción tecnológica. Teniendo índices de 0.59 y 0.45.
 
-Los usuarios suelen estar dispuestos a tolerar cierta dificultad de manejo. Pero ningún nivel de facilidad de uso puede compensar la falta de utilidad de un sistema
+Los usuarios suelen estar dispuestos a tolerar cierta dificultad de manejo. Pero ningún nivel de facilidad de uso puede compensar la falta de utilidad de un sistema.
+

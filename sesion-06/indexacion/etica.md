@@ -116,8 +116,6 @@ es posible que nos guste algo que no queremos.
 
 - [bilbiografía pilar-01: ética](../../bibliografia/pilares/etics/README.md)
 
-
-
 ## 1.2. economía de la atención
 
 en el pasado la atención
