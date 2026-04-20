@@ -38,3 +38,6 @@ Diseño UX: La falta de regulación frente a prácticas predatorias por parte de
 - a medidad que se fue reduciendo la longitud del mensaje, antes eran diarios, depues columnas, depues blogs, despues tweets, dps notificaciones. Y nosotros comnezamos a personalizar el medio para que tenga mas info. Ejemplo distintos osnido de notif, segun longitud sabes si es llamada o mensaje, etc.
 
 - alvin toeffler
+
+
+
