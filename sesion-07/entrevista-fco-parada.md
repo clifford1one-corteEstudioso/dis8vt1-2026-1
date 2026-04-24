@@ -10,7 +10,7 @@ Director e Investigador del Centro de Estudios en Neurociencia Humana y Neuropsi
 
 ### entrevista
 
-### consolidacion
+### consolidación
 
 Guion de Entrevista Consolidado
 Bloque 1: Neurobiología del Deseo y la Adicción Digital
