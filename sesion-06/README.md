@@ -1,5 +1,7 @@
 # sesion-06
 
+2026-04-08
+
 [docs de mi encargo](https://docs.google.com/document/d/1b2Jwj0-2EThQBxA4KrHxSup5wm_H4yr7nP6R9idXmaY/edit?usp=sharing)
 
 | personita | problemática general | arista-1 | arista-2 | arista-3 | arista-4 | arista-5 |
