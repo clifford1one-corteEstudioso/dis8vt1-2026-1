@@ -144,3 +144,57 @@ asistentes por voz. interfaces para usar el celular para personas ciegas.
 
 a mi no me gusta que me envíen audios, eso es pq está la posibilidad de leerlo? me seguiría dando lata si pudiera usar el celu sin mirarlo?
 
+reflexión día siguiente: no quiero obligar a nadie, quiero que exista la opción de navegarlo sin mirarlo.
+
+que se pueda navegar sin mirar, lo haría más adictivo?
+
+## info rescatda de "hábitos atómicos"
+
+1. las 3 capas del cambio de conducta(pág. 46-47):
+
+    1. Cambiar resultados: asociado al cambio de los resultados. La mayoría de las metas que te propones están asociadas con este nivel: perder peso, publicar un libro, ganar un campeonato, etc.
+    2. Cambiar procesos: asociado al acambio de hábitos y sistemas. La mayoría de los hábitos que uno desarrolla están asociados a este nivel: implementar una nueva rutina en el gym, organizar tu espacio de trabajo, etc.
+    3. Cambiar tu identidad: asociado a cambiar tus creencias. La mayoría de las creencias, suposiciones y prejuicios que uno mantiene están asociados a este nivel: tu visión del mundo, la imagen de ti mimsmo, tus prejuicios, etc.
+
+    Los resultados se tratan de lo que obtienes. Los procesos se tratan de lo que haces. La identidad se trata de lo que crees.
+
+    Cuando un cambio de conducta está enfocado en aquello que se quiere cambiar, suele no llegar a resultados. La alternativa apropiada es construir hábitos basados en cambios de identidad.
+
+    ejemplo: *te ofrecen un cigarro, existen 2 posibles caminos:
+
+    - "No gracias, estoy tratando de dejar de fumar"
+    - "No gracias, no soy fumador"
+
+2. Es la anticipación de la recompensa -no su obtención- lo que hace que nos pongamos en acción(pág. 135-137)
+
+    A. antes que se aprenda un hábito, se libera dopamina cuando la recompensa se experimenta por primera vez
+    B. En la siguiente ocasión, la dopamina se eleva antes de que se realice la acción inmediatamente después de que se reconozca la señal. El pico conduce a una sensación de deseo y anhelo que impulsa a realizar la acción.
+    C. Una vez aprendido el hábito, la dopamina no se eleva cuando se experimenta la recompensa, porque ya anticipabas la recompensa. Si detectas una seal y esperas una recompensa, pero no la obtienes, entonces la dopamina baja para mostrar decepción.
+    D. La señal es identificada y la dopamina se eleva conforme se construye el anhelo. Después se da una respuesta, pero la recompensa no llega tna rápido como se esperaba y la dopamina comienza a bajar. Cuando la recompensa llega después de los esperado, el pico de dopamina se eleva de nuevo.
+
+3. Fisiología de los hábitos(pág. 178-179)
+    La formación de hábitos es un proceso mediante el cual una conducta se vuelve progresivamente automática mediante la repetición constante.
+
+    esta parte la agregue yo, falta cita: El cuerpo y cerebro humano están en un ejercicio constante de ahorro de energía.
+
+    Entre más repitas una actividad, más cambiará tu estructura cerebral para volverse eficiente en dicha actividad. "potenciación a largo plazo": refiere al fortalecimiento de las conexiones entre neuronas en el cerebro basado en patrones de actividad recientes.
+
+    Formar hábitos no es cosa de tiempo, es cosa de repeticiones.
+
+### clase
+
+2026-04-29
+
+hice este figma donde ordené mi mente
+- <https://www.figma.com/board/NB2lujtcBhDMemaUnRYr4N/proceso-pensacional-seminario?node-id=18-763&t=mYrcEmFKr38bbeB6-1>
+
+- <https://docs.google.com/presentation/d/1KC8jNBB1V_Pfp7c78TXlXI8Q17DaC1NZRWn21pMx14s/edit?usp=sharing>
+
+
+### pa la prox clase
+
+proxima semana: ideación
+
+pega profunda de ideación usar herramientas com brainstorm, crazy7, etc.
+
+coómo podríamos abordar mi hipótesis
