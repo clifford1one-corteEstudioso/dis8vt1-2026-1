@@ -1,0 +1,17 @@
+Clase,Etapa,Título de la Clase,Actividad / Hito,AM,PM,Bibliografía Recomendada,Capítulos Memoria
+01 (09 Mar),1. Encuadre y elección de tema,Lanzamiento: La Cancha Rayada & framework Phigital,"Mapa de polaridades. Emergencia de temas, tecnologías y tipología de producto.",Identificación de 4-5 Clusters temáticos,,The Design of Everyday Things (Don Norman),Presentación de preformato ínrice de contenidos (docs)
+02 (16 Mar),"Disciplina, oportunidad, ámbito productivo y tecnológico",Inmersión y Etnografía del Objeto,"Mapeo de usuarios, contexto de aplicación y oportunidad de diseño.",Aproximación de 4-5 Clusters temáticos,,Diseño y Crítica (Joan Costa),
+03 (23 Mar),,"Detección del ""Bache""",Definición de tema ,Definición de 4-5 Clusters temáticos,,Universal Methods of Design (Martin & Hanington),
+04 (30 Mar),2. Formulación del proyecto,Desconstrucción de Hardware,"Uso de ""Boost Seminario"" ",,,The Hardware Hackers Handbook (J. van Woudenberg),Marco Teórico
+05 (06 Abr),,Desconstrucción de Software,HITO 1: Presentaicón Resuemen estado de avance,,,Reverse Engineering for Beginners (D. Yurichev),
+06 (13 Abr),3. Análisis de referentes,Arquitectura de la Experiencia,Cápsula: Análisis de Flujo.,,,Don't Make Me Think (S. Krug); About Face (A. Cooper),Formulación proyectual
+07 (20 Abr),,Protocolos de Comunicación,Diagramación interacciones,,,Designing Connected Products (C. Rowland et al.),
+08 (27 Abr),,Nivelación: Pensamiento Lógico,,,,Automate the Boring Stuff with Python (A. Sweigart),
+Semana de Receso (boost de memoria),,,,,,,
+09 (11 May),4. Code,Integración Electrónica,Cápsula: Arduino Day (Prototipado).,,,Getting Started with Arduino (M. Banzi),Análisis de referentes
+10 (18 May),,Debugging y Refinamiento,HITO 2: Sistema Funcional,,,Clean Code (Robert C. Martin),
+11 (25 May),5. Maker,"Prototipado rápido: Sketching, partes y piezas.",Cápsula: Maker Day (Procesos).,,,Manufacturing Processes for Design Professionals,Proyecto
+12 (01 Jun),,"Desarrollo volumétrico: Ensamble, alohamiento de componentes, botones y puertos.",Trabajo en Taller / Supervisión de Obra.,,,The Maker's Manual (Paolo Aliverti),
+13 (08 Jun),,Iteración y mejoramiento de sistemas,HITO 3: Integraicón software-hardware & UX,,,Materials and Design (Ashby & Johnson),
+14 (15 Jun),6. Pitch,Estrategia y Narrativa,"Diseño de identidad, empaque y ensayo de Pitch.",,,Value Proposition Design (A. Osterwalder),Desarrolo presentaicón final
+15 (22 Jun),,Cierre y Examen,ENTREGA FINAL: Producto + Pitch.,,,Show Your Work! (Austin Kleon),

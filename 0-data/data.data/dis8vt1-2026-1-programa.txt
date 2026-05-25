@@ -1,0 +1,221 @@
+﻿ESCUELA DE DISEÑO · FAAD · UNIVERSIDAD DIEGO PORTALES
+Planificación de Asignatura
+SEMINARIO DE TÍTULO — PRIMER SEMESTRE 2026
+Diseño Phygital · Plan 8.0 · Modalidades: Investigación / Creación / Mediación
+Simbología y tipos de sesión
+▶ HITO
+	Momento estructural del proceso. Evalúa acumulación de trabajo.
+	⬡ PASE
+	Revisión habilitante. Autoriza o condiciona la presentación a examen.
+	⭐ EXAMEN
+	Evaluación final ante comisión. Rúbrica 60 pts + 10 base.
+	⚠ FERIADO / RECESO
+	Sin clases ni evaluaciones calificadas. Trabajo autónomo.
+	
+
+Mapa de hitos del semestre
+HITO
+	SEMANAS
+	MES
+	ENTREGABLE / ACTIVIDAD
+	TIPO
+	H1 — Encuadre
+	Sem 1–4
+	Mar
+	Presentación oral 5 min (Guía N°3) + mapa de ámbitos
+	Formativa
+	H2 — Formulación
+	Sem 5–7
+	Abr
+	Problema + hipótesis + metodología escritos
+	Formativa
+	H3 — Investigación
+	Sem 8–11
+	May
+	Marco teórico + referentes + usuario + bibliografía
+	Formativa
+	H4 — Propuesta
+	Sem 12–13
+	Jun
+	Presentación 10 min + 2 propuestas proyectuales + borrador memoria
+	Formativa
+	PASE
+	Sem 14
+	Jun
+	Memoria borrador completa + autoevaluación rúbrica
+	HABILITANTE
+	H5 — Cierre
+	Sem 15–18
+	Jun–Jul
+	Memoria final 5.000 palabras + ensayo presentación 20 min
+	Sumativa
+	H6 — Examen
+	Sem 19–20
+	Jul
+	Examen ante comisión: presentación 20 min + memoria final
+	CALIFICADA
+	
+
+Nota sobre el Pase: El Pase es una instancia de revisión habilitante, no calificada. Su resultado (APTO / CONDICIONAL / NO APTO) autoriza al estudiante a presentar examen. Los estudiantes CONDICIONALES deben subsanar las observaciones señaladas en la semana siguiente.
+________________
+
+
+Planificación sesión a sesión · Marzo — Julio 2026
+SEM
+	FECHA
+	SESIÓN / ACTIVIDAD
+	OBJETIVO DE SESIÓN
+	ENTREGABLE / ACCIÓN
+	▶ HITO  H1 — ENCUADRE Y EXPLORACIÓN TEMÁTICA   —   Semanas 1–4 · Marzo
+	1
+	11 mar
+	Presentación del curso
+	Establecer el contrato pedagógico, explicar las 3 modalidades de titulación (Investigación, Creación, Mediación) y la estructura del año completo.
+	Ficha de presentación personal + 3 posibles temas de interés
+	2
+	18 mar
+	Exploración de temas e intereses
+	Mapear áreas de interés disciplinar y cruzarlas con el campo phygital: identificar tensiones, oportunidades y nichos temáticos.
+	Mapa mental de ámbitos de interés (digital, físico, híbrido)
+	3
+	25 mar
+	Definición de los 3 ámbitos (Guía N°3)
+	Articular el Tema general, Foco disciplinar desde el diseño y Dimensión tecnológica como estructura base del proyecto.
+	Draft Guía N°3: 3 ámbitos con pregunta de investigación por cada uno
+	4
+	01 Abr
+	Presentación oral N°1 (5 min)
+	Defender los 3 ámbitos en exposición breve ante el grupo. Recibir retroalimentación y validar coherencia interna antes de formalizar hipótesis.
+	Presentación Google Slides 5 min + hipótesis de solución phygital preliminar
+	5
+	8 abr
+	Fundamentación y Marco Teórico
+	Formalizar el problema de investigación con datos duros. Identificar 2–5 aristas centrales y validar cada una con citas o evidencia.
+	Planteamiento escrito (400–800 palabras) con mínimo 3 fuentes
+	▶ HITO  H2 — FORMULACIÓN DEL PROYECTO   —   Semanas 6 –7
+	6
+	15 abr
+	Planteamiento del problema
+	Avanzar en redacción de hipótesis, objetivos y justificación disciplinar de forma independiente.
+	Draft hipótesis + objetivo general + 2 objetivos específicos
+	7
+	22 abr
+	Hipótesis, objetivos y metodología
+	Refinar hipótesis de investigación o propuesta. Definir metodología con etapas, herramientas y cronograma tentativo. FOCO: fortalecer el punto más débil del semestre pasado.
+	Cuadro metodológico: etapas + acciones + resultados esperados + testeo
+	▶ HITO  RECESO ACADÉMICO   —   27 abr – 2 may · Sin evaluaciones semana post-receso (5–8 may)
+	▶ HITO  H3 — DESARROLLO DE LA INVESTIGACIÓN   —   Semanas 8–11 · Mayo–Junio
+	8
+	6 may
+	Post-receso: correcciones sin nota
+	Revisar avances del bloque anterior, ajustar formulación según retroalimentación. Establecer plan de trabajo para el tramo investigativo.
+	Formulación corregida + plan semana a semana mayo–junio
+	9
+	13 may
+	Marco teórico y bibliografía
+	Construir el marco teórico con pensadores y tendencias clave. Organizar bibliografía en taxonomía coherente (norma APA). Mínimo 15 fuentes.
+	Marco teórico 500–1000 palabras + bibliografía comentada APA
+	10
+	20 may
+	Análisis de referentes
+	Estudiar estratégicamente grupos de referentes según tema, contexto y ámbito de diseño. Analizar con parámetros cualitativos Y cuantitativos.
+	Tabla de referentes (mín. 6) con ficha crítica comparativa
+	11
+	27 may
+	Corrección Cruzada: Usuario y contexto de aplicación 
+	Identificar y caracterizar el usuario de forma cualitativa y cuantitativa. Definir contexto de aplicación y criterios éticos de la investigación.
+	Perfil de usuario + contexto de aplicación + declaración ética
+	▶ HITO  H4 — PROPUESTA PROYECTUAL PRELIMINAR   —   Semanas 12–13 · Junio
+	12
+	3 jun
+	Bajada proyectual (mín. 2 propuestas)
+	Desarrollar al menos 2 propuestas proyectuales diferentes que conecten investigación con solución de diseño. Evidenciar innovación en el ámbito disciplinar.
+	2 propuestas con bocetos/esquemas + descripción 300 palabras c/u
+	13
+	10 jun
+	Presentación de avance N°2 (10 min)
+	Exponer el estado consolidado del proyecto: problema, hipótesis, metodología, referentes y propuesta preliminar. Preparar para el Pase.
+	Presentación 10 min + versión borrador de memoria (estructura completa)
+	⬡ PASE  PASE PREVIO AL EXAMEN   —   Semanas 14–15 · Junio · REVISIÓN HABILITANTE
+	14
+	17 jun
+	⬡ PASE — Revisión habilitante
+	Evaluar si el proyecto cumple condiciones mínimas para presentarse a examen: coherencia hipótesis–objetivos, metodología declarada, propuesta proyectual visible y memoria con estructura completa.
+	Memoria borrador completa + tabla de autoevaluación rúbrica · Resultado: APTO / CONDICIONAL / NO APTO
+	15
+	23 jun
+	Correcciones post-pase y ajuste de memoria
+	Implementar correcciones señaladas en el Pase. Completar secciones pendientes. Estudiantes CONDICIONALES deben presentar corrección específica.
+	Memoria revisada + resumen de cambios realizados
+	▶ HITO  H5 — CIERRE Y PREPARACIÓN PARA EXAMEN   —   Semanas 16–18 · Junio–Julio
+	16
+	01 jul
+	Presentación, resumen y abstract
+	Redactar resumen (200–300 palabras, en pasado) y abstract en inglés. Afinar título y subtítulo. Iniciar preparación de presentación final de 20 min.
+	Resumen + abstract + título definitivo
+	17
+	8 jul
+	Último día de clases — ensayo de presentación
+	Simular condiciones del examen: presentación completa de 20 min cronometrada con retroalimentación del profesor y pares.
+	Presentación final (versión preliminar) + memoria con formato editorial
+	18
+	12  jul
+	Semana exclusiva de talleres (sin clases)
+	Semana de preparación autónoma: ajustar presentación, cerrar memoria, revisar formato editorial y consistencia APA.
+	Memoria final lista para entrega + presentación definitiva
+	▶ HITO  H6 — EXAMEN DE SEMINARIO DE TÍTULO   —   Semanas 19–20 · 14–25 julio · Presentación oral 20 min + Memoria 5.000 palabras
+	19–20
+	14–25 jul
+	⭐ EXAMEN FINAL — Comisión evaluadora
+	Defender el proyecto ante comisión. Demostrar dominio del tema, coherencia investigativa y proyección hacia Proyecto de Título.
+	Memoria 5.000 palabras + imágenes / Presentación 20 min / Evaluación rúbrica 60 pts + 10 base
+	
+
+________________
+
+
+Criterios del Pase — Revisión Habilitante previa al Examen de Seminario
+El Pase es una instancia de corrección estructurada que ocurre en la Semana 14. Su propósito es garantizar que los estudiantes lleguen al examen con un trabajo suficientemente desarrollado. No es una calificación: es una habilitación.
+Resultados posibles:
+APTO: cumple todos los criterios. Puede presentarse a examen sin restricciones.
+CONDICIONAL: 1 o 2 criterios incompletos. Tiene 1 semana para subsanar. Deberá presentar corrección específica.
+NO APTO: 3 o más criterios incompletos. No puede presentarse a examen en este período. Deberá conversar con el docente sobre opciones.
+CRITERIO
+	CONDICIÓN MÍNIMA PARA APROBACIÓN
+	RESULTADO
+	Hipótesis y objetivos
+	Hipótesis declarada y coherente con mínimo 2 objetivos específicos operacionales
+	
+
+	Metodología
+	Etapas, acciones y resultados declarados. Incluye al menos 1 instancia de testeo o validación
+	
+
+	Marco teórico
+	Mínimo 10 fuentes citadas en APA. Marco teórico redactado (500+ palabras)
+	
+
+	Referentes
+	Mínimo 6 referentes analizados con criterios cualitativos y cuantitativos
+	
+
+	Usuario
+	Perfil de usuario definido con caracterización cualitativa y ética declarada
+	
+
+	Propuesta proyectual
+	Al menos 1 propuesta de diseño esbozada con boceto o descripción proyectual
+	
+
+	Memoria
+	Estructura completa con todos los capítulos presentes (aunque incompletos)
+	
+
+	
+
+* La tabla anterior es completada por el docente durante la sesión de Pase. El estudiante recibe una copia con las observaciones específicas por criterio.
+Notas de diseño curricular — Aprendizajes del semestre 2025
+1. Metodología como prioridad: El criterio 2.2 (Metodología y Plan de trabajo) fue consistentemente el más débil en el 100% de las evaluaciones revisadas del 2025. En 2026, se refuerza con el cuadro metodológico obligatorio en H2 y la declaración de testeo como requisito del Pase.
+2. Propuesta proyectual adelantada: En 2025, la bajada proyectual llegaba demasiado conceptual al examen. Se incorpora H4 (Semana 12–13) con exigencia de bocetos/esquemas y 2 propuestas como condición del Pase.
+3. La Guía N°3 se mantiene y se hace progresiva: La estructura de 3 ámbitos (Tema / Foco disciplinar / Dimensión tecnológica) funcionó bien en 2025. En 2026 se introduce en Semana 3 y se retoma como eje articulador en cada entrega.
+4. Pase como dispositivo pedagógico: Se formaliza como herramienta de acompañamiento, no de sanción. Los criterios son públicos desde el inicio del semestre para que los estudiantes puedan autoevaluarse.
