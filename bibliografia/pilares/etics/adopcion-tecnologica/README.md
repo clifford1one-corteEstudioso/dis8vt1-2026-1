@@ -1,3 +1,0 @@
-# adopción tecnológica
-
-a
