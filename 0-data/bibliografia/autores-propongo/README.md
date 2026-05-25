@@ -42,6 +42,12 @@
 | `productivo-distractivo-inmersion.pdf` | Montero Vial, C. (2025). Uso productivo vs. distractivo de internet. [Tesis magíster, PUC] | Único referente chileno — inmersión y flujo |
 | `Davis-adopcion-tecnologica.pdf` | Davis, F. D. (1989). Perceived Usefulness, Perceived Ease of Use. *MIS Quarterly* | TAM original — correlaciones 0.59 / 0.45 |
 | `AdopcionTecnologica.pdf` | Cáceres-Ramírez, R. (2021). Adopción Tecnológica: una revisión. *Revista de Ingenierías Interfaces* | Revisión del TAM en contexto latinoamericano |
+| `B.J. Fogg - A Behavior Model for Persuasive Design_compressed.pdf` | Fogg, B.J. (2009). A Behavior Model for Persuasive Design. *Persuasive Technology* | FBM: Conducta = Motivación × Habilidad × Disparador |
+| `Mental-Models-Aligning-Design-Strategy-With-Human-Behavior.pdf` | Young, I. (2008). *Mental Models*. Rosenfeld Media. | Modelos mentales del usuario en diseño |
+| `leyes-simplicidad-compressed.pdf` | Maeda, J. (2006). *The Laws of Simplicity*. MIT Press. | Diez leyes de simplicidad aplicadas al diseño |
+| `diseno-como-storytelling-compressed.pdf` | Prob. Lupton, E. (2017). *Design Is Storytelling*. Cooper Hewitt. | Diseño como narración |
+| `Krug-No-me-hagas-pensar-compressed.pdf` | Krug, S. (trad. ES). *No me hagas pensar* (comprimida). | Versión en español — misma fuente que Tier S |
+| `Krug-No-me-hagas-pensar-ed5.pdf` | Krug, S. (trad. ES, ed. 5). *No me hagas pensar*. | Edición más reciente en español |
 
 ---
 
@@ -51,6 +57,7 @@
 
 | Archivo | Referencia | Nota |
 |---|---|---|
+| `4-Nudge-A_compressed.pdf` | Thaler, R.H. & Sunstein, C.R. (2008). *Nudge*. Yale University Press. | Arquitectura de elección — los Intention Devices como nudges éticos |
 | `the-attention-merchants.pdf` | Wu, T. (2016). *The Attention Merchants*. Knopf. | Historia de la mercantilización de la atención (review/extracto) |
 | `TheAttentionEconomy-resumen.pdf` | Davenport & Beck (2002). *The Attention Economy*. | Resumen del libro, no encontré el PDF completo |
 | `franck-2018-the-economy-of-attention.pdf` | Franck, G. (2019). The economy of attention. *Journal of Sociology* | Artículo académico sobre economía de la atención |

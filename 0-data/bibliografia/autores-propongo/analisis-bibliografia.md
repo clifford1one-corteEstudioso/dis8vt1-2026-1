@@ -51,6 +51,8 @@
 | `paper-ux-neuroscience.pdf` | — | Neurociencia aplicada a UX — intersección exacta de los ámbitos A y B |
 | `paper-ethic-ux.pdf` | — | Ética en UX — argumento directo para la fricción ética |
 | `Socialmediaobsession-2024.pdf` | — (2024) | Datos recientes sobre obsesión con RRSS — valida el problema con evidencia actual |
+| `4-Nudge-A_compressed.pdf` | Thaler & Sunstein (2008) | Nudge theory — los Intention Devices son nudges éticos; contrapunto conceptual a los dark patterns |
+| `B.J. Fogg - A Behavior Model for Persuasive Design_compressed.pdf` | Fogg, B.J. (2009) | FBM: Conducta = Motivación × Habilidad × Disparador — el modelo que los dark patterns aplican deliberadamente |
 
 ### Tier B — Contexto útil (consultar, citar puntualmente)
 
@@ -74,6 +76,9 @@
 | `entrevista-semiestructurada-guia.pdf` | — | Metodología para las entrevistas |
 | `ieee-2089-2021-with-disclaimer.pdf` | IEEE (2021) | Estándar internacional para bienestar digital — referencia regulatoria |
 | `oms-screentime-kids.pdf` | OMS (2019) | Guías de tiempo de pantalla — dato empírico de respaldo |
+| `Mental-Models-Aligning-Design-Strategy-With-Human-Behavior.pdf` | Young, I. (2008) | Modelos mentales en UX — cómo alinear (o explotar) el modelo mental del usuario |
+| `leyes-simplicidad-compressed.pdf` | Maeda, J. (2006) | Leyes de simplicidad — filosofía aplicable al diseño intencional de los Intention Devices |
+| `Krug-No-me-hagas-pensar-compressed.pdf` | Krug (ES, comprimida) | Versión en español del Tier S — misma fuente, útil para lectura personal |
 
 ### Tier C — Relevancia marginal (revisar rápido antes de descartar)
 
@@ -86,6 +91,8 @@
 | `CIOMS-EthicalGuideline.pdf` | Guías éticas de investigación con humanos (CIOMS) | Al hacer las entrevistas, para respaldar el protocolo ético con participantes |
 | `ScreenicImage-2016.pdf` | Título genérico, año antiguo — relevancia incierta | Revisar antes de descartar definitivamente |
 | `gps-phone-world.pdf` | Título genérico — posiblemente sobre dependencia tecnológica en general | Revisar antes de descartar |
+| `diseno-como-storytelling-compressed.pdf` | Prob. Lupton, E. (2017) — Diseño como narración, tangencial al argumento central | Solo si el proyecto necesita framing narrativo para comunicarse |
+| `Krug-No-me-hagas-pensar-ed5.pdf` | Misma fuente que la versión comprimida — edición más reciente en español | Usar una sola versión; no citar como fuente distinta |
 
 ### Tier D — Omitir en esta etapa
 
@@ -295,6 +302,53 @@
 
 ---
 
+#### `B.J. Fogg - A Behavior Model for Persuasive Design_compressed.pdf`
+**Tier A** · Fogg, B.J. (2009) · Paper académico (CHI — Persuasive Technology Conference)
+
+**Qué aporta:** El Fogg Behavior Model (FBM) postula que Conducta = Motivación × Habilidad × Disparador. Para que un comportamiento ocurra, los tres factores deben alinearse simultáneamente. Este modelo explica con precisión por qué los dark patterns son efectivos: maximizan la motivación (dopamina/refuerzo variable), reducen la habilidad requerida a cero (scroll infinito = cero fricción), y añaden disparadores constantes (notificaciones, badges). Es la base teórica del diseño persuasivo — y también la base del argumento para la fricción ética como contrapeso: los Intention Devices actúan bajando la motivación impulsiva y aumentando la habilidad requerida de forma consciente.
+
+**Dónde usarlo:** Marco teórico en el cruce Ámbito B → C: como modelo que explica el mecanismo exacto de los dark patterns y que puede invertirse para diseñar en sentido contrario.
+
+**Cita clave a buscar:** La definición de los tres factores del FBM y la fórmula B = MAT.
+
+---
+
+#### `Mental-Models-Aligning-Design-Strategy-With-Human-Behavior.pdf`
+**Tier B** · Young, I. (2008) · Libro (Rosenfeld Media)
+
+**Qué aporta:** Indi Young presenta los modelos mentales como mapas de cómo los usuarios entienden y anticipan el comportamiento de un sistema. El diseño honesto alinea la interfaz con el modelo mental del usuario; el diseño manipulador lo explota o distorsiona. Útil para enriquecer el marco teórico Ámbito B y para diseñar el protocolo de entrevistas con usuarios.
+
+**Dónde usarlo:** Marco teórico Ámbito B como complemento de Norman (2013). También útil en la fase de investigación con usuarios para estructurar el análisis de cómo los participantes perciben su relación con TikTok.
+
+---
+
+#### `leyes-simplicidad-compressed.pdf`
+**Tier B** · Maeda, J. (2006) · Libro (MIT Press)
+
+**Qué aporta:** Las diez leyes de la simplicidad: reducir, organizar, tiempo, aprender, diferencias, contexto, emoción, confianza, fracaso, la única. La Ley 1 — "Reduce" — y la Ley 10 — "Simplicity is about subtracting the obvious, and adding the meaningful" — son directamente aplicables al concepto de Intention Devices: dispositivos que hacen intencionalmente menos para hacer una sola cosa bien.
+
+**Dónde usarlo:** Posiblemente en la formulación del proyecto para argumentar por qué los Intention Devices son objetos de función reducida. No es crítico para el argumento central.
+
+---
+
+#### `diseno-como-storytelling-compressed.pdf`
+**Tier C** · Prob. Lupton, E. (2017) · Libro (Thames & Hudson)
+
+**Qué aporta:** Diseño como narración — cómo los objetos e interfaces cuentan historias y producen significados. Más relevante para la fase de comunicación del proyecto que para el argumento central de la tesis.
+
+**Dónde usarlo:** Solo si necesitas justificar el componente narrativo o simbólico de los Intention Devices. Por ahora, no prioritario.
+
+---
+
+#### `Krug-No-me-hagas-pensar-compressed.pdf` / `Krug-No-me-hagas-pensar-ed5.pdf`
+**Tier B / C** · Krug, S. (versiones ES — comprimida y ed. 5) · Libros
+
+**Qué aporta:** Son las versiones en español del Tier S (`DontMakeMeThink-Steve-Krug(2005).pdf`). La versión comprimida (2.1 MB) es más manejable para lectura rápida; la ed. 5 (15 MB) es la más reciente en castellano. No son una fuente adicional — son el mismo argumento para lectura activa.
+
+**Dónde usarlo:** Para leer en español. Al citar en la tesis, usar siempre la referencia original: Krug, S. (2006). *Don't Make Me Think!* (el título en inglés es el que aparece en literatura académica). No citar como dos fuentes separadas.
+
+---
+
 #### `sketching-user-Experiences-course.pdf`
 **Tier C** · Buxton, B. (2007) · Libro completo (62 MB)
 
@@ -479,6 +533,17 @@
 
 ---
 
+#### `4-Nudge-A_compressed.pdf`
+**Tier A** · Thaler, R.H. & Sunstein, C.R. (2008) · Libro (Yale University Press) — Premio Nobel Economía 2017 (Thaler)
+
+**Qué aporta:** Thaler y Sunstein introducen el "nudge" — un pequeño cambio en la arquitectura de decisiones que orienta la conducta hacia mejores elecciones sin prohibir ni obligar. El marco del "libertarismo paternalista" preserva la autonomía mientras guía sutilmente. Este concepto es el contrapunto exacto a los dark patterns: donde los dark patterns son nudges negativos que explotan sesgos cognitivos, los Intention Devices son nudges éticos que los compensan. La "choice architecture" de Thaler & Sunstein es el andamiaje teórico que le da nombre formal a lo que hace la fricción ética.
+
+**Dónde usarlo:** Marco teórico Ámbito C y en la formulación del proyecto: los Intention Devices son nudges éticos de diseño. La referencia a Thaler (Nobel) también eleva el peso académico del argumento.
+
+**Cita clave a buscar:** Definición de "libertarismo paternalista" y el concepto de "arquitectura de elección" (choice architecture).
+
+---
+
 #### `ScreenicImage-2016.pdf` / `gps-phone-world.pdf`
 **Tier C** · Desconocidos
 
@@ -587,6 +652,13 @@
 | `ScreenicImage-2016.pdf` | **C** | C | Desconocido | No | Revisar antes de descartar |
 | `gps-phone-world.pdf` | **C** | C | Desconocido | No | Revisar antes de descartar |
 | `etic-alter-Irresistible.pdf` | **D** | C | Duplicado | — | Eliminar (igual que adam-alter) |
+| `B.J. Fogg - A Behavior Model...pdf` | **A** | B→C | Paper académico | No | Leer — FBM como base teórica de dark patterns |
+| `4-Nudge-A_compressed.pdf` | **A** | C | Libro | No | Leer — Intention Devices como nudges éticos |
+| `Mental-Models-Aligning...pdf` | **B** | B | Libro | No | Consultar — modelos mentales en UX |
+| `leyes-simplicidad-compressed.pdf` | **B** | B | Libro | No | Consultar — filosofía de simplicidad |
+| `Krug-No-me-hagas-pensar-compressed.pdf` | **B** | B | Libro (ES) | No | Leer en español — mismo contenido que Tier S |
+| `diseno-como-storytelling-compressed.pdf` | **C** | B | Libro | No | Revisar si el proyecto necesita framing narrativo |
+| `Krug-No-me-hagas-pensar-ed5.pdf` | **C** | B | Libro (ES, ed. 5) | No | Duplicado de versión comprimida — no citar por separado |
 
 ---
 
@@ -604,3 +676,5 @@ Si solo puedes leer 10 cosas, en este orden:
 8. **`paper-patterns-why-dark.pdf`** — Leer para el bucle competitivo.
 9. **`ethics-past-present-future-of-design-ethics.pdf`** — Leer para situar el proyecto.
 10. **`Socialmediaobsession-2024.pdf`** — Leer para los datos más recientes.
+11. **Fogg, B.J. (2009)** — FBM. El modelo teórico que formaliza por qué los dark patterns funcionan.
+12. **Thaler & Sunstein (2008)** — Nudge. Los Intention Devices son nudges éticos — marco conceptual Nobel.
