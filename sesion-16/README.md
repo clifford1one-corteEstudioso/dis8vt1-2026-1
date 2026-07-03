@@ -2,7 +2,9 @@
 
 2026-07-01
 
-## refuerzo
+## categorizacion
+
+### refuerzo
 
 1. recompensa
 2. castigo
@@ -10,7 +12,7 @@
 4. competencia
 5. refuerzo de conductas alternativas
 
-## fricción
+### fricción
 
 1. fricción física: kitchen safe, 
 2. fricción digital: 
@@ -18,17 +20,48 @@
 4. fricción cognitiva
 5. fricción de compatibilidad(hacking)
 
-## sustracción
+### sustracción
 
 1. bloqueo total
 2. segmentación
 3. reducción de estímulos
 4. límite cuantitativo
 
-## consciencia
+### consciencia
 
 1. feedback de uso
 2. explicitar intención
 3. reflexión/interrupción
 4. visibilización de costo
 
+## hábitos
+
+pasos, según James Clear:
+
+### Hacerlo invisible
+
+aquí puedo:
+
+- esconde icono en la pantalla principal
+- hacer invisible el botón de reels en ig
+
+### Hacerlo poco atractivo
+
+aquí puedo:
+
+- hackearte el algoritmo
+- ponerlo en blanco y negro
+
+### Hacerlo difícil
+
+aquí puedo:
+
+- hacerte esperar pa entrar
+- ponerlo detrás de una serie de pasos
+
+### Hacerlo insatisfactorio
+
+aquí puedo:
+
+- creo que es la única que no tiene ningún referente en el mundo real
+- existen referentes que usan un castigo externo, pero el acto del scroll en sí sigue siendo satisfactorio
