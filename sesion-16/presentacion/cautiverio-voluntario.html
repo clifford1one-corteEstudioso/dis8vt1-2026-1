@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cautiverio Voluntario — Santiago Gaete Fernández</title>
+<style>
+:root{
+  --ink:#0B0E13;
+  --surface:#141922;
+  --line:#252C38;
+  --paper:#E9E7E2;
+  --muted:#79839A;
+  --glow:#8E9BFF;
+  --signal:#E7C46B;
+
+  --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --sans: "Helvetica Neue", Inter, Arial, system-ui, sans-serif;
+  --mono: ui-monospace, "SF Mono", "Roboto Mono", Menlo, Consolas, monospace;
+
+  --pad: 7vmin;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background:var(--ink);
+  color:var(--paper);
+  font-family:var(--sans);
+  overflow:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+
+.deck{position:fixed;inset:0}
+.slide{
+  position:absolute;inset:0;
+  padding:var(--pad) calc(var(--pad) + 3vmin) var(--pad) var(--pad);
+  display:none;
+  flex-direction:column;
+  justify-content:center;
+}
+.slide.active{display:flex;animation:rise .5s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+.eyebrow{
+  position:absolute;top:var(--pad);left:var(--pad);
+  font-family:var(--mono);font-size:clamp(10px,1.15vmin,15px);
+  letter-spacing:.22em;text-transform:uppercase;color:var(--muted);
+}
+.eyebrow b{color:var(--glow);font-weight:400}
+
+h1{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(30px,7.6vmin,110px);
+  line-height:1.02;letter-spacing:-.02em;
+  max-width:19ch;
+}
+h2{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(24px,5.2vmin,74px);
+  line-height:1.08;letter-spacing:-.015em;max-width:22ch;
+}
+.lead{
+  font-size:clamp(15px,2.1vmin,30px);line-height:1.45;
+  color:var(--muted);max-width:46ch;margin-top:3vmin;
+}
+.lead em{color:var(--paper);font-style:normal}
+.hook{
+  font-family:var(--serif);font-style:italic;
+  font-size:clamp(18px,3vmin,42px);color:var(--glow);
+  margin-bottom:4vmin;
+}
+.note{
+  font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:2.4vmin;
+}
+
+/* ---------- 1 · apertura ---------- */
+#s1{padding:0;justify-content:flex-end}
+.videoslot{
+  position:absolute;inset:0;
+  background:
+    repeating-linear-gradient(180deg,transparent 0 38px,rgba(142,155,255,.05) 38px 39px),
+    var(--surface);
+  overflow:hidden;
+}
+/* .feed{position:absolute;inset:-40% 0;display:flex;flex-direction:column;gap:4vmin;
+  padding:0 22vmin;animation:drift 26s linear infinite} */
+.card{height:26vmin;border-radius:3px;background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.05)}
+@keyframes drift{from{transform:translateY(0)}to{transform:translateY(-50%)}}
+.videoslot::after{
+  content:"[ VIDEO — persona scrolleando, 20 s, sin audio ]";
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  font-family:var(--mono);font-size:clamp(10px,1.3vmin,16px);
+  letter-spacing:.18em;color:var(--muted);
+  border:1px dashed var(--line);padding:1.6vmin 2.4vmin;
+}
+.videoslot:has(video)::after{content:none}
+.bgvideo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.veil{position:absolute;inset:0;background:linear-gradient(to top,var(--ink) 4%,rgba(11,14,19,.75) 42%,rgba(11,14,19,.2) 100%)}
+.opening{position:relative;padding:var(--pad);width:100%}
+.opening h1{font-size:clamp(32px,8.4vmin,124px);max-width:16ch}
+.credits{
+  margin-top:5vmin;display:flex;gap:4vmin;flex-wrap:wrap;align-items:baseline;
+  border-top:1px solid var(--line);padding-top:2.4vmin;
+}
+.credits .t{font-family:var(--serif);font-size:clamp(13px,1.9vmin,26px)}
+.credits .m{font-family:var(--mono);font-size:clamp(9px,1.15vmin,14px);
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- 2 · dato ---------- */
+.figure{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(70px,23vmin,340px);line-height:.82;letter-spacing:-.045em;
+}
+.figure span{color:var(--glow)}
+.figcap{font-family:var(--mono);font-size:clamp(10px,1.3vmin,17px);
+  letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:2.6vmin}
+.statement{margin-top:6vmin;border-left:2px solid var(--glow);padding-left:3vmin}
+
+/* ---------- aristas del problema ---------- */
+.aristas{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:3vmin}
+.arista{background:var(--ink);padding:2.6vmin 2.4vmin;display:flex;flex-direction:column;gap:1.4vmin}
+.arista .k{font-family:var(--mono);font-size:clamp(9px,1.05vmin,13px);letter-spacing:.22em;
+  text-transform:uppercase;color:var(--glow)}
+.arista .d{font-size:clamp(12px,1.7vmin,23px);color:var(--muted);line-height:1.4}
+.arista .d b{color:var(--paper);font-weight:400}
+
+/* ---------- 3 · marco ---------- */
+.layers{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line)}
+.layer{background:var(--ink);padding:3.2vmin 3.4vmin;display:grid;
+  grid-template-columns:11ch 1fr 1fr;gap:3vmin;align-items:baseline}
+.layer .q{font-family:var(--mono);font-size:clamp(9px,1.15vmin,14px);
+  letter-spacing:.2em;text-transform:uppercase;color:var(--glow)}
+.layer .n{font-family:var(--serif);font-weight:700;font-size:clamp(18px,3.4vmin,48px);line-height:1}
+.layer .d{font-size:clamp(12px,1.65vmin,22px);color:var(--muted);line-height:1.4}
+.layer .d i{display:block;font-family:var(--mono);font-style:normal;
+  font-size:clamp(9px,1.05vmin,13px);letter-spacing:.14em;color:#4E5769;margin-top:1vmin}
+
+/* ---------- 7 · bisagra ---------- */
+#s7{align-items:flex-start;justify-content:center}
+.hinge{font-family:var(--serif);font-size:clamp(26px,6.6vmin,96px);line-height:1.1}
+.hinge .off{color:#333B4B}
+
+/* ---------- 5 · benchmark ---------- */
+.cats{display:grid;grid-template-columns:repeat(5,1fr);gap:1.4vmin;margin-top:1vmin}
+.cat{border:1px solid var(--line);padding:2.4vmin 1.8vmin;display:flex;flex-direction:column;gap:1.4vmin;min-height:30vmin}
+.cat h3{font-family:var(--serif);font-weight:700;font-size:clamp(13px,2.3vmin,32px);line-height:1.05}
+.cat .ref{font-family:var(--mono);font-size:clamp(9px,1.25vmin,16px);color:var(--paper);letter-spacing:.04em}
+.cat .fail{margin-top:auto;font-size:clamp(10px,1.4vmin,18px);color:var(--muted);line-height:1.35}
+.cat.empty{border:1px dashed var(--signal);background:rgba(231,196,107,.05)}
+.cat.empty h3{color:var(--signal)}
+.cat.empty .void{margin-top:auto;font-family:var(--mono);font-size:clamp(9px,1.2vmin,15px);
+  color:var(--signal);letter-spacing:.14em;line-height:1.6}
+.claim{margin-top:3vmin;font-family:var(--serif);font-size:clamp(14px,2.2vmin,32px);line-height:1.3;max-width:52ch}
+.claim b{color:var(--signal);font-weight:700}
+.claim .src{display:block;font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:1.6vmin}
+
+/* ---------- 6 · cuadrante ---------- */
+.quad-wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:6vmin;align-items:center;margin-top:1vmin}
+.quad-wrap svg{width:100%;height:auto;display:block}
+
+/* ---------- 7 · propuesta ---------- */
+.split{display:grid;grid-template-columns:1fr 1.05fr;gap:6vmin;align-items:center}
+.beats{display:flex;flex-direction:column;gap:2.2vmin;margin-top:3vmin}
+.beat{display:grid;grid-template-columns:3ch 1fr;gap:2vmin;align-items:baseline}
+.beat .k{font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);color:var(--glow);letter-spacing:.1em}
+.beat .v{font-size:clamp(12px,1.8vmin,25px);line-height:1.35;color:var(--muted)}
+.beat .v b{color:var(--paper);font-weight:400}
+.phones{display:grid;grid-template-columns:repeat(3,1fr);gap:2vmin}
+.phone{aspect-ratio:9/17;border:1px dashed var(--line);border-radius:14px;
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:1.4vmin;
+  font-family:var(--mono);font-size:clamp(8px,1vmin,12px);letter-spacing:.12em;color:#4E5769;line-height:1.6}
+.phone.on{border-style:solid;border-color:var(--glow);color:var(--glow);background:rgba(142,155,255,.06)}
+
+/* ---------- 8 · envoltura + niveles ---------- */
+.wrapband{border:1px solid var(--line);padding:2vmin 3vmin;display:grid;
+  grid-template-columns:14ch 1fr;gap:3vmin;align-items:center;background:rgba(142,155,255,.04)}
+.wrapband .k{font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);letter-spacing:.22em;
+  text-transform:uppercase;color:var(--glow)}
+.wrapband .v{font-size:clamp(11px,1.6vmin,22px);color:var(--muted);line-height:1.35}
+.wrapband .v b{color:var(--paper);font-weight:400}
+.sensing{font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);letter-spacing:.2em;
+  text-transform:uppercase;color:#4E5769;text-align:center;padding:1.2vmin 0}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line)}
+.lv{background:var(--ink);padding:2.6vmin 2.4vmin;display:flex;flex-direction:column;gap:1.6vmin;min-height:30vmin}
+.lv .k{font-family:var(--mono);font-size:clamp(8px,.95vmin,12px);letter-spacing:.24em;color:#3E4759}
+.lv .big{font-family:var(--serif);font-weight:700;font-size:clamp(15px,2.7vmin,38px);line-height:1.1}
+.lv .sub{font-size:clamp(10px,1.45vmin,19px);color:var(--muted);line-height:1.4;margin-top:auto}
+.lv .bar{height:3px;background:var(--line)}
+.lv .bar i{display:block;height:100%;background:var(--glow)}
+.recal{display:grid;grid-template-columns:auto 1fr;gap:2.4vmin;align-items:center;
+  border:1px dashed var(--glow);padding:1.8vmin 2.6vmin;margin-top:1.4vmin;background:rgba(142,155,255,.04)}
+.recal svg{width:clamp(34px,5vmin,64px);height:auto;display:block}
+.recal .t{font-size:clamp(10px,1.5vmin,20px);color:var(--muted);line-height:1.35}
+.recal .t b{color:var(--paper);font-weight:400}
+
+/* ---------- 9–11 · hallazgo ---------- */
+.gap-wrap{margin-top:2vmin}
+.gap-wrap svg{width:100%;height:auto;display:block}
+.twoways{display:grid;grid-template-columns:1fr 1fr;gap:5vmin;margin-top:4vmin}
+.twoways p{font-size:clamp(12px,1.7vmin,23px);line-height:1.4;color:var(--muted)}
+.twoways p b{display:block;font-family:var(--mono);font-size:clamp(9px,1.05vmin,13px);
+  letter-spacing:.18em;text-transform:uppercase;margin-bottom:1.2vmin;font-weight:400}
+.no b{color:#6A7387}.yes b{color:var(--signal)}
+.yes{color:var(--paper)}
+.reasons{display:flex;flex-direction:column;gap:2.4vmin;margin-top:3vmin}
+.reason{display:grid;grid-template-columns:3ch 1fr;gap:2vmin;align-items:baseline}
+.reason .k{font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);color:var(--signal);letter-spacing:.1em}
+.reason .v{font-size:clamp(13px,1.9vmin,26px);line-height:1.35;color:var(--muted)}
+.reason .v b{color:var(--paper);font-weight:400}
+.verdict{margin-top:5vmin;border-left:2px solid var(--signal);padding-left:3vmin;
+  font-family:var(--serif);font-size:clamp(16px,2.6vmin,38px);line-height:1.25;max-width:40ch}
+
+/* ---------- 12 · próximos pasos ---------- */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:3vmin}
+.step{background:var(--ink);padding:3vmin 2.6vmin;display:flex;flex-direction:column;gap:1.6vmin;min-height:26vmin}
+.step .k{font-family:var(--mono);font-size:clamp(8px,.95vmin,12px);letter-spacing:.24em;color:var(--glow)}
+.step .big{font-family:var(--serif);font-weight:700;font-size:clamp(15px,2.6vmin,36px);line-height:1.1}
+.step .sub{font-size:clamp(10px,1.45vmin,19px);color:var(--muted);line-height:1.4;margin-top:auto}
+
+/* ---------- mapa de actores ---------- */
+.actores{display:flex;flex-direction:column;gap:.2vmin;margin-top:1vmin}
+.actor-band{border:1px solid var(--line);padding:2vmin 2.2vmin;background:var(--surface)}
+.actor-band.capture{border-color:rgba(231,196,107,.35)}
+.actor-band.ally{border-color:rgba(142,155,255,.35)}
+.actor-band h3{font-family:var(--serif);font-weight:700;font-size:clamp(14px,2.1vmin,30px);line-height:1.1}
+.actor-band.capture h3{color:var(--signal)}
+.actor-band.ally h3{color:var(--glow)}
+.actor-band .sub{font-family:var(--mono);font-size:clamp(8px,1vmin,12px);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);margin-top:.6vmin}
+.actor-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:1.6vmin}
+.actor-card{background:var(--ink);padding:1.6vmin 1.7vmin;display:flex;flex-direction:column;gap:.7vmin}
+.actor-card.dashed{background:transparent;border:1px dashed var(--line)}
+.actor-card .t{font-family:var(--serif);font-weight:700;font-size:clamp(11px,1.5vmin,19px);color:var(--paper)}
+.actor-card .d{font-size:clamp(9px,1.2vmin,15px);color:var(--muted);line-height:1.35}
+.actor-mid{border:1px solid var(--glow);background:rgba(142,155,255,.06);padding:2vmin 2.4vmin;
+  display:flex;align-items:baseline;gap:2vmin;flex-wrap:wrap}
+.actor-mid .t{font-family:var(--serif);font-weight:700;font-size:clamp(15px,2.3vmin,32px);color:var(--paper)}
+.actor-mid .d{font-size:clamp(10px,1.4vmin,19px);color:var(--muted);line-height:1.4;max-width:52ch}
+
+/* ---------- 18 · cierre ---------- */
+#s18{padding:0;justify-content:flex-end}
+#s18 .opening h2{max-width:18ch}
+.flip{margin-top:4vmin;font-family:var(--mono);font-size:clamp(10px,1.4vmin,18px);
+  letter-spacing:.2em;text-transform:uppercase;color:var(--glow)}
+
+/* ---------- chrome ---------- */
+.rail{position:fixed;top:var(--pad);bottom:var(--pad);right:calc(var(--pad) / 2.2);
+  width:3px;background:var(--line)}
+.thumb{position:absolute;left:-1px;width:5px;background:var(--paper);
+  transition:top .45s cubic-bezier(.2,.8,.2,1), background .3s}
+.counter{position:fixed;bottom:calc(var(--pad) / 2.6);left:var(--pad);
+  font-family:var(--mono);font-size:clamp(9px,1.1vmin,14px);letter-spacing:.2em;color:#3E4759}
+.counter b{color:var(--paper);font-weight:400}
+.help{position:fixed;bottom:calc(var(--pad) / 2.6);right:calc(var(--pad) + 1vmin);
+  font-family:var(--mono);font-size:clamp(9px,1.05vmin,13px);letter-spacing:.16em;color:#2C3444}
+
+@media (prefers-reduced-motion: reduce){
+  .slide.active{animation:none}
+  .feed{animation:none}
+  .thumb{transition:none}
+}
+@media (max-width:820px){
+  .cats,.levels,.split,.twoways,.phones,.quad-wrap,.steps,.actor-row,.aristas{grid-template-columns:1fr}
+  .layer,.wrapband,.recal{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- ==========================================================
+       DIAPO 1 · APERTURA  ·  ~45 s
+       GUION:
+       - No expliques nada todavía. Deja correr el video 15–20 s en silencio.
+       - Recién ahí hablas: "esto es lo que nadie decidió hacer".
+       - Nombras la distinción que ordena todo el proyecto:
+         uso DIRIGIDO (contenido elegido) vs uso de ARRASTRE (contenido empujado).
+       - No menciones aún fricción, categorías ni marco teórico.
+       NOTA: usar video PREGRABADO, no scroll en vivo (riesgo técnico en el minuto 1).
+       ========================================================== -->
+  <section class="slide" id="s1">
+    <div class="videoslot">
+      <video class="bgvideo" data-video
+       src="./media/scroll-arto-suraj-pexels.mp4"
+       poster="media/arrastre-poster.jpg"
+       autoplay muted loop playsinline preload="auto"></video>
+    </div>
+    <div class="veil"></div>
+    <div class="opening">
+      <h1>Cautiverio Voluntario.</h1>
+      <div class="credits">
+        <div class="t">Cómo se diseña la libertad</div>
+        <div class="m">Santiago Gaete Fernández · Diseño Industrial UDP · Seminario de Título</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 2 · PROBLEMA  ·  ~45 s
+       GUION:
+       - UN solo dato, dicho una sola vez. No acumules cifras.
+       - Tesis del proyecto en una frase: el arrastre no es falta de voluntad, es diseño.
+       - Si te preguntan por más datos, los tienes en la memoria; acá no los uses.
+       ========================================================== -->
+  <section class="slide" id="s2">
+    <div class="eyebrow"><b>01</b> &nbsp;·&nbsp; El problema</div>
+    <div class="figure">34<span>h</span></div>
+    <div class="figcap">al mes, por usuario, solo en TikTok — Kemp, 2024</div>
+    <div class="statement">
+      <h2>No es falta de voluntad.<br>Es diseño.</h2>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 3 · LAS ARISTAS DEL PROBLEMA  ·  ~45 s
+       GUION:
+       - No leer las tres cajas. Nombrar cada arista y dar una frase.
+       - Arista I es la que justifica por qué la intervención usa fricción: el proyecto
+         invierte esa asimetría.
+       - Arista II justifica al usuario: por eso no puede simplemente borrar Instagram.
+       - Arista III sostiene el reencuadre ético del cierre y el mapa de actores.
+       ========================================================== -->
+  <section class="slide" id="s3">
+    <div class="eyebrow"><b>02</b> &nbsp;·&nbsp; Las aristas del problema</div>
+    <h2>Tres aristas, un mismo resultado.</h2>
+    <div class="aristas">
+      <div class="arista">
+        <div class="k">Arista I — Asimetría de fricción</div>
+        <div class="d">Entrar es instantáneo; salir requiere una <b>decisión consciente.</b></div>
+      </div>
+      <div class="arista">
+        <div class="k">Arista II — Multifuncionalidad como trampa</div>
+        <div class="d">Trabajo y ocio en el mismo dispositivo. <b>No se puede simplemente borrar la app.</b></div>
+      </div>
+      <div class="arista">
+        <div class="k">Arista III — El modelo de negocio</div>
+        <div class="d">La adicción no es un efecto colateral: <b>es el producto.</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 4 · USUARIO Y CONTEXTO
+       GUION:
+       - Encarna el problema en una persona concreta antes de pasar al marco teórico.
+       - Es alguien que usa la app para TRABAJAR: el bloqueo total no es una opción real.
+       - Cierra con la frase que justifica el enfoque de todo el proyecto:
+         la intervención no puede eliminar el acceso, tiene que operar adentro.
+       ========================================================== -->
+  <section class="slide" id="s4">
+    <div class="eyebrow"><b>03</b> &nbsp;·&nbsp; Usuario y contexto</div>
+    <h2>Adultos jóvenes con uso no intencional recurrente.</h2>
+    <p class="lead">Perfil central: un <em>creativo que necesita Instagram profesionalmente</em> y no puede
+      abandonar la app — por eso la intervención debe distinguir uso productivo de compulsivo
+      dentro de la misma plataforma, en vez de bloquear.</p>
+    <div class="reasons">
+      <div class="reason"><div class="k">01</div><div class="v">También incluye a quienes no pueden dejar las redes por <b>inclusión social y mantenimiento de vínculos.</b></div></div>
+      <div class="reason"><div class="k">02</div><div class="v">Contexto de uso: momentos de <b>tiempo no estructurado</b> — mañana, noche, pausas, tiempo libre — donde es más difícil elegir una alternativa por sobre el scroll.</div></div>
+      <div class="reason"><div class="k">03</div><div class="v">El instante crítico es el <b>agarre automático</b>: abrir la app sin una decisión deliberada.</div></div>
+    </div>
+    <p class="verdict">No puede irse. La intervención no puede eliminar el acceso —
+      tiene que <b>distinguir dentro de la misma plataforma.</b></p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 5 · EVIDENCIA PRIMARIA
+       GUION:
+       - Sostén empírico del usuario recién descrito: no es una intuición de diseño.
+       - El dato clave: el disparador es el tiempo NO ESTRUCTURADO, no la plataforma en sí.
+       ========================================================== -->
+  <section class="slide" id="s5">
+    <div class="eyebrow"><b>04</b> &nbsp;·&nbsp; Evidencia primaria</div>
+    <h2>No es una intuición de diseño.</h2>
+    <p class="hook">"Los usuarios entrevistados reportan que su efecto es esporádico y tiende a desvanecerse."</p>
+    <div class="reasons">
+      <div class="reason"><div class="k">01</div><div class="v">5 entrevistas + screentime de <b>10 personas</b> — 4,5 h al día, más el fin de semana.</div></div>
+      <div class="reason"><div class="k">02</div><div class="v">Análisis de referentes de mercado: <b>14 apps y dispositivos</b> categorizados.</div></div>
+      <div class="reason"><div class="k">03</div><div class="v">Caso propio con Digital Wellbeing: <b>extender el límite, repetidamente, durante una hora</b> — evidencia del fallo por habituación.</div></div>
+    </div>
+    <p class="note">Evidencia secundaria · Kemp / DataReportal 2024 · SUBTEL &amp; Cadem 2024 · Common Sense Media</p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 6 · MARCO TEÓRICO  ·  ~1 min
+       GUION:
+       - Lanza la pregunta gancho en voz alta ANTES de que aparezca el diagrama.
+       - NO leas las tres capas. Nómbralas y sigue: biología / interfaz / economía.
+       - Este es el fundamento que defiendes ante la comisión (no Clear).
+       - Cierre de la diapo: las tres capas empujan en la misma dirección,
+         convertir uso dirigido en uso de arrastre.
+       ========================================================== -->
+  <section class="slide" id="s6">
+    <div class="eyebrow"><b>05</b> &nbsp;·&nbsp; Marco teórico</div>
+    <p class="hook">¿Por qué es tan difícil soltar el teléfono?</p>
+    <div class="layers">
+      <div class="layer">
+        <div class="q">Qué se explota</div>
+        <div class="n">Biología</div>
+        <div class="d">Dopamina, refuerzo variable, carga cognitiva.
+          <i>Schultz · Berridge · Fiorillo · Sweller</i></div>
+      </div>
+      <div class="layer">
+        <div class="q">Cómo</div>
+        <div class="n">Interfaz</div>
+        <div class="d">Fricción eliminada, patrones engañosos.
+          <i>Brignull · Fogg · Kahneman</i></div>
+      </div>
+      <div class="layer">
+        <div class="q">Para qué</div>
+        <div class="n">Economía</div>
+        <div class="d">La atención como materia prima.
+          <i>Simon · Zuboff · Williams</i></div>
+      </div>
+    </div>
+    <p class="lead">Tres capas, un mismo objetivo: <em>que el uso dirigido se vuelva uso de arrastre.</em></p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 7 · BISAGRA  ·  ~10 s
+       GUION:
+       - Diapo más barata del deck y la que más te faltaba.
+       - Una sola frase, en voz alta, y avanzas. No te detengas aquí.
+       - Resuelve el feedback: "no se sabe cuándo empieza el proyecto".
+       ========================================================== -->
+  <section class="slide" id="s7">
+    <div class="eyebrow">Bisagra</div>
+    <p class="hinge"><span class="off">Hasta aquí el diagnóstico.</span><br>Esto es lo que propongo.</p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 8 · HIPÓTESIS Y OBJETIVOS
+       GUION:
+       - Lee la hipótesis una vez, completa. No la parafrasees sobre la marcha.
+       - El objetivo general resume la hipótesis en clave de resultado esperado.
+       - Los tres específicos son las etapas metodológicas: investigar, prototipar, validar.
+       ========================================================== -->
+  <section class="slide" id="s8">
+    <div class="eyebrow"><b>06</b> &nbsp;·&nbsp; Hipótesis y objetivos</div>
+    <h2>Reintroducir la decisión consciente en el flujo automático.</h2>
+    <p class="lead"><em>Hipótesis:</em> el diseño de una intervención que reintroduzca momentos de
+      decisión consciente en el flujo de uso automático del smartphone, mediante una fricción
+      adaptativa que se calibra según el comportamiento y necesidad del usuario, permitirá
+      restituir la capacidad de decisión sobre el comportamiento tecnológico propio,
+      reduciendo el uso no intencional de forma duradera.</p>
+    <p class="lead" style="margin-top:1.6vmin"><em>Objetivo general:</em> contribuir a que adultos
+      jóvenes con uso no intencional recurrente recuperen la capacidad de decidir conscientemente
+      sobre su comportamiento tecnológico, reduciendo como consecuencia el uso compulsivo en
+      contextos de tiempo no estructurado, mediante una intervención de diseño.</p>
+    <div class="steps" style="margin-top:3vmin">
+      <div class="step">
+        <div class="k">01 · Investigación</div>
+        <div class="big">Caracterizar la autorregulación actual.</div>
+        <div class="sub">Estrategias que los usuarios emplean hoy y las razones de su fracaso.</div>
+      </div>
+      <div class="step">
+        <div class="k">02 · Prototipado</div>
+        <div class="big">Definir los principios de diseño.</div>
+        <div class="sub">Una intervención que interrumpa el uso automático y traduzca los hallazgos en una propuesta testeable.</div>
+      </div>
+      <div class="step">
+        <div class="k">03 · Validación</div>
+        <div class="big">Evaluar con usuarios.</div>
+        <div class="sub">En qué medida la intervención recupera agencia, reduce el uso no intencional y si perdura en el tiempo.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 9 · BENCHMARK  ·  ~1 min 20 s
+       GUION:
+       - Frase hilo en voz alta: "¿qué existe y por qué no basta?".
+       - UN referente por categoría (los de tu bibliografía, no genéricos).
+         Una frase por app: qué logra / dónde se queda corta. No más.
+       - El caso más fuerte es Digital Wellbeing: cuéntalo en primera persona
+         (extiendes 2 min, otra vez, otra vez, durante una hora).
+       - Cierra con el diagnóstico común: los cuatro fallan por ESTÍMULO FIJO.
+       - Skinner: el refuerzo variable resiste la extinción, el fijo se apaga.
+         Es la ley que sostiene el scroll infinito; también puede sostener la interrupción.
+       - Silencio en la quinta casilla. No la expliques todavía: solo señala que está vacía.
+       OJO SI TE PREGUNTAN: la analogía con Skinner es ESTRUCTURAL (resistencia a la
+       extinción por variabilidad), no el esquema de refuerzo completo.
+       ========================================================== -->
+  <section class="slide" id="s9">
+    <div class="eyebrow"><b>07</b> &nbsp;·&nbsp; Benchmark · categorías propias</div>
+    <p class="hook">¿Qué existe y por qué no basta?</p>
+    <div class="cats">
+      <div class="cat">
+        <h3>Refuerzo</h3>
+        <div class="ref">Forest</div>
+        <div class="fail">Premia el no-uso. La recompensa se vuelve rutina.</div>
+      </div>
+      <div class="cat">
+        <h3>Fricción</h3>
+        <div class="ref">one sec</div>
+        <div class="fail">Un respiro antes de entrar. Siempre el mismo respiro.</div>
+      </div>
+      <div class="cat">
+        <h3>Sustracción</h3>
+        <div class="ref">Freedom</div>
+        <div class="fail">Bloquea. Se desactiva con un toque, y se desactiva.</div>
+      </div>
+      <div class="cat">
+        <h3>Consciencia</h3>
+        <div class="ref">Digital Wellbeing</div>
+        <div class="fail">Avisa el límite. Extender es un tap: se automatiza.</div>
+      </div>
+      <div class="cat empty">
+        <h3>Insatisfacción</h3>
+        <div class="void">— sin referentes —</div>
+      </div>
+    </div>
+    <p class="claim">Los cuatro fallan por lo mismo: <b>estímulo fijo, respuesta automatizada.</b>
+      El refuerzo variable resiste la extinción; el fijo se apaga.
+      <span class="src">Ferster &amp; Skinner, 1957 — la ley que sostiene el scroll infinito</span></p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 10 · CUADRANTE  ·  ~40 s
+       GUION:
+       - Puente entre "qué existe" y "qué propongo".
+       - Frase única: los más efectivos son los que menos perduran.
+       - Explica por qué: son efectivos mientras están activos, pero el usuario
+         se vuelve dependiente sin internalizar ningún cambio propio.
+       - Al marcar tu posición, adelántate a la objeción:
+         "sí, exijo más esfuerzo — el esfuerzo es la condición de la durabilidad".
+       - Declara en voz alta que la posición es PRELIMINAR, a falta de testeo (Etapa 3).
+       ========================================================== -->
+  <section class="slide" id="s10">
+    <div class="eyebrow"><b>08</b> &nbsp;·&nbsp; Efectividad, esfuerzo y agencia</div>
+    <div class="quad-wrap">
+      <svg viewBox="0 0 640 460" role="img" aria-label="Cuadrante de mecanismos según efectividad y esfuerzo">
+        <line x1="320" y1="20" x2="320" y2="440" stroke="#252C38" stroke-width="2"/>
+        <line x1="30" y1="230" x2="610" y2="230" stroke="#252C38" stroke-width="2"/>
+        <text x="600" y="216" fill="#79839A" font-family="ui-monospace,monospace" font-size="15" text-anchor="end">+ efectivo</text>
+        <text x="40" y="252" fill="#79839A" font-family="ui-monospace,monospace" font-size="15">− efectivo</text>
+        <text x="332" y="36" fill="#79839A" font-family="ui-monospace,monospace" font-size="15">+ esfuerzo</text>
+        <text x="308" y="430" fill="#79839A" font-family="ui-monospace,monospace" font-size="15" text-anchor="end">− esfuerzo</text>
+
+        <!-- nube de mecanismos existentes: alta efectividad / bajo esfuerzo -->
+        <g opacity=".75">
+          <circle cx="420" cy="300" r="7" fill="#d9a752"/>
+          <circle cx="470" cy="340" r="7" fill="#8f628c"/>
+          <circle cx="390" cy="355" r="7" fill="#8f628c"/>
+          <circle cx="500" cy="290" r="7" fill="#4c7cb6"/>
+          <circle cx="445" cy="385" r="7" fill="#598a6c"/>
+          <circle cx="520" cy="345" r="7" fill="#8f628c"/>
+          <circle cx="365" cy="310" r="7" fill="#d9a752"/>
+          <circle cx="480" cy="395" r="7" fill="#598a6c"/>
+        </g>
+        <text x="440" y="425" fill="#4E5769" font-family="ui-monospace,monospace" font-size="13" text-anchor="middle">mecanismos existentes</text>
+
+        <!-- zona de la propuesta: mayor esfuerzo, agencia recuperada -->
+        <ellipse cx="430" cy="130" rx="105" ry="72" fill="rgba(231,196,107,.08)" stroke="#E7C46B" stroke-width="1.5" stroke-dasharray="6 5"/>
+        <text x="430" y="128" fill="#E7C46B" font-family="Georgia,serif" font-size="21" font-style="italic" text-anchor="middle">la propuesta</text>
+        <text x="430" y="152" fill="#79839A" font-family="ui-monospace,monospace" font-size="12" text-anchor="middle">posición estimada</text>
+      </svg>
+      <div>
+        <h2>Los más efectivos son los que menos perduran.</h2>
+        <p class="lead">Funcionan mientras están activos. Al retirarlos, el usuario vuelve
+          al punto de partida: <em>nunca internalizó el cambio.</em></p>
+        <p class="note">Posición preliminar · sujeta a validación con usuarios (Etapa 3)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 11 · LA PROPUESTA  ·  ~1 min 30 s (el corazón del pitch)
+       GUION:
+       - Cuenta el escenario 5.3 como historia, no como especificación.
+       - Beat 01: el usuario DECLARA qué viene a hacer y cuánto tiempo.
+         Esa declaración configura la navegación disponible (si dice DMs, no entra al feed).
+       - Insiste: el sistema NO le cree ciegamente. El sensado sigue corriendo de fondo.
+         Es el punto donde tu propuesta se separa de "explicitar intención" (Intenty).
+       - Beat 02: el viraje. Cambia el origen del contenido: ya no elige, recibe.
+       - Beat 03: notificación en segunda persona, tono cercano — nunca culpa.
+       PENDIENTE: reemplazar los 3 placeholders por capturas reales del prototipo.
+       ========================================================== -->
+  <section class="slide" id="s11">
+    <div class="eyebrow"><b>09</b> &nbsp;·&nbsp; La propuesta</div>
+    <div class="split">
+      <div>
+        <h2>Actúa sobre el arrastre. Deja pasar la intención.</h2>
+        <div class="beats">
+          <div class="beat"><div class="k">01</div><div class="v">Al entrar, <b>declara qué viene a hacer y cuánto tiempo</b>. Eso configura la navegación disponible.</div></div>
+          <div class="beat"><div class="k">02</div><div class="v">El sistema <b>no le cree ciegamente</b>: el sensado del origen del contenido corre de fondo, siempre.</div></div>
+          <div class="beat"><div class="k">03</div><div class="v">Vira al scroll de reels. Cambia el <b>origen del contenido</b>: ya no elige, recibe.</div></div>
+          <div class="beat"><div class="k">04</div><div class="v">Aparece una <b>notificación en segunda persona</b>. Luego, fricción rotativa entre scrolls.</div></div>
+        </div>
+      </div>
+      <div class="phones">
+        <div class="phone">CAPTURA 01<br>declaración<br>de intención</div>
+        <div class="phone on">CAPTURA 02<br>notificación<br>en segunda persona</div>
+        <div class="phone">CAPTURA 03<br>fricción<br>rotativa</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 12 · ESCALADA ENVUELTA  ·  ~1 min
+       GUION:
+       - Lo importante es la FORMA: dos momentos de consciencia envuelven la fricción.
+         Antes (declaración) y después (contador). La fricción vive en el medio.
+       - Esa forma anticipa visualmente el hallazgo de la diapo 10. No lo adelantes aún.
+       - Los tres niveles son intra-evento: escalan dentro de UNA sesión de arrastre.
+       - El recuadro de abajo es lo que hace al sistema adaptativo y no un andamiaje:
+         la recaída está contemplada, el sistema no se retira nunca, y el orden de los
+         mecanismos se recalibra según lo que funcionó para ESE usuario.
+       - Si te preguntan por qué no se retira: el entorno algorítmico sigue empujando;
+         la agencia requiere sostenimiento, no se consolida de una vez.
+       ========================================================== -->
+  <section class="slide" id="s12">
+    <div class="eyebrow"><b>10</b> &nbsp;·&nbsp; Escalada adaptativa</div>
+    <div class="wrapband">
+      <div class="k">Antes</div>
+      <div class="v"><b>Declaración de intención.</b> Qué vengo a hacer, cuánto tiempo. Configura la navegación disponible.</div>
+    </div>
+    <div class="sensing">⌄ &nbsp; sensado continuo · invisible mientras no hay arrastre &nbsp; ⌄</div>
+    <div class="levels">
+      <div class="lv">
+        <div class="k">Nivel 1</div>
+        <div class="big">Te nombra lo que estás haciendo.</div>
+        <div class="sub">Aviso en segunda persona. Ninguna acción exigida.</div>
+        <div class="bar"><i style="width:28%"></i></div>
+      </div>
+      <div class="lv">
+        <div class="k">Nivel 2</div>
+        <div class="big">Cada scroll cuesta un gesto distinto.</div>
+        <div class="sub">Fricción rotativa: la interfaz deja de ser predecible.</div>
+        <div class="bar"><i style="width:62%"></i></div>
+      </div>
+      <div class="lv">
+        <div class="k">Nivel 3</div>
+        <div class="big">Salir exige una capa más cada vez.</div>
+        <div class="sub">La salida se profundiza con cada repetición. No se automatiza.</div>
+        <div class="bar"><i style="width:100%"></i></div>
+      </div>
+    </div>
+    <div class="recal">
+      <svg viewBox="0 0 64 64" role="img" aria-label="Ciclo de recalibración entre sesiones">
+        <path d="M32 10a22 22 0 1 1-15.6 6.4" fill="none" stroke="#8E9BFF" stroke-width="3.4" stroke-linecap="round"/>
+        <path d="M8 8 L17 17 L6 20 Z" fill="#8E9BFF"/>
+      </svg>
+      <div class="t"><b>Entre sesiones:</b> el orden de los mecanismos se recalibra según cuál funcionó
+        para ese usuario. La recaída está contemplada — el sistema no se retira, vuelve a endurecerse.</div>
+    </div>
+    <div class="wrapband" style="margin-top:1.4vmin">
+      <div class="k">Después</div>
+      <div class="v"><b>Tiempo acumulado.</b> La distancia entre lo declarado y lo real, sesión tras sesión.</div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 13 · HALLAZGO 1/3 · EL VACÍO  ·  ~15 s
+       GUION:
+       - Enmarca desde el principio: esto pasó DESPUÉS de entregar la memoria,
+         durante el prototipado. No es una corrección del texto: lo precisa.
+       - La comisión leyó la memoria como está. Decirlo tú primero te blinda.
+       ========================================================== -->
+  <section class="slide" id="s13">
+    <div class="eyebrow"><b>11</b> &nbsp;·&nbsp; El hallazgo · 1 de 3</div>
+    <h2>Insatisfacción es la única categoría que el mercado no ha atacado.</h2>
+    <p class="lead">No la tomé del mercado: <em>no hay de dónde tomarla.</em> La derivé del marco teórico.
+      Y al intentar poblarla en prototipado, encontré por qué está vacía.</p>
+    <p class="note">Hallazgo posterior a la entrega · etapa de prototipado</p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 14 · HALLAZGO 2/3 · LA BRECHA  ·  ~20 s
+       GUION:
+       - Define satisfacción: relación entre lo esperado y lo entregado.
+       - De ahí salen exactamente dos vías: bajar la entrega, o subir la expectativa.
+       - Conecta con el marco: es error de predicción (Schultz).
+       - No opines todavía cuál elegiste. Solo abre las dos puertas.
+       ========================================================== -->
+  <section class="slide" id="s14">
+    <div class="eyebrow"><b>11</b> &nbsp;·&nbsp; El hallazgo · 2 de 3</div>
+    <h2>La satisfacción no está en el contenido: está en la brecha.</h2>
+    <div class="gap-wrap">
+      <svg viewBox="0 0 1000 210" role="img" aria-label="Diagrama de la brecha entre expectativa y entrega">
+        <defs>
+          <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="7" stroke="#E7C46B" stroke-width="1.4" opacity=".55"/>
+          </pattern>
+        </defs>
+        <rect x="120" y="42" width="760" height="86" fill="url(#hatch)"/>
+        <line x1="120" y1="42" x2="880" y2="42" stroke="#8E9BFF" stroke-width="3"/>
+        <line x1="120" y1="128" x2="880" y2="128" stroke="#E9E7E2" stroke-width="3" stroke-dasharray="10 7"/>
+        <text x="120" y="28" fill="#8E9BFF" font-family="ui-monospace,monospace" font-size="17" letter-spacing="3">EXPECTATIVA</text>
+        <text x="120" y="158" fill="#E9E7E2" font-family="ui-monospace,monospace" font-size="17" letter-spacing="3">ENTREGA</text>
+        <text x="500" y="93" fill="#E7C46B" font-family="Georgia,serif" font-size="30" font-style="italic" text-anchor="middle">brecha = insatisfacción</text>
+        <text x="900" y="90" fill="#79839A" font-family="ui-monospace,monospace" font-size="14">error de</text>
+        <text x="900" y="110" fill="#79839A" font-family="ui-monospace,monospace" font-size="14">predicción</text>
+      </svg>
+    </div>
+    <div class="twoways">
+      <p class="no"><b>Vía A · bajar la entrega</b>Degradar lo que el algoritmo muestra: peor contenido, peor calidad.</p>
+      <p class="yes"><b>Vía B · subir la expectativa</b>Hacer visible lo que el usuario mismo vino a buscar.</p>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 15 · HALLAZGO 3/3 · EL DESCARTE  ·  ~25 s
+       GUION:
+       - Dos razones para descartar la vía A, en este orden (la segunda es la más fuerte,
+         porque viene del usuario y no de una restricción legal):
+         01 · viola los términos de servicio de la plataforma.
+         02 · el usuario NO quiere un algoritmo peor: lo necesita bueno para cuando SÍ decide mirar.
+       - Conclusión precisa, y cuídala: la categoría NO se disuelve.
+         Tiene palanca propia (degradar el valor de la recompensa), pero su única
+         vía de activación practicable pasa por la consciencia.
+         "Palanca propia, vehículo prestado."
+       - Y cierra el círculo: por eso el popup y el contador de la diapo 8 no son
+         mecanismos sueltos — son la materialización de la quinta categoría.
+       SI TE APRIETAN "¿entonces por qué no la disuelves en Consciencia?":
+         porque el efecto perseguido es distinto — consciencia informa para decidir,
+         insatisfacción degrada el valor de la recompensa. Comparten vehículo, no palanca.
+       ========================================================== -->
+  <section class="slide" id="s15">
+    <div class="eyebrow"><b>11</b> &nbsp;·&nbsp; El hallazgo · 3 de 3</div>
+    <h2>Bajar la entrega no era una opción.</h2>
+    <div class="reasons">
+      <div class="reason"><div class="k">01</div><div class="v">Exige intervenir el contenido en el servidor. <b>Viola los términos de servicio.</b></div></div>
+      <div class="reason"><div class="k">02</div><div class="v">El usuario <b>no quiere un algoritmo peor</b>: lo necesita bueno para cuando sí decide mirar.</div></div>
+    </div>
+    <p class="verdict">Queda una sola vía: la expectativa.
+      La categoría tiene palanca propia — pero su acceso pasa por la consciencia.</p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 16 · PRÓXIMOS PASOS  ·  ~20 s
+       GUION:
+       - Cierre metodológico: dónde queda el proyecto y qué viene en Proyecto de Título.
+       - Reconoce lo que falta sin disculparte: los indicadores están declarados
+         en la memoria, la parametrización es tarea de la etapa siguiente.
+       - Recuerda el proxy de efectividad: reducción de frecuencia y duración
+         del uso de arrastre, no del tiempo total de pantalla.
+       ========================================================== -->
+  <section class="slide" id="s16">
+    <div class="eyebrow"><b>12</b> &nbsp;·&nbsp; Qué viene</div>
+    <h2>De la hipótesis de diseño a la evidencia.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="k">01 · Prototipado</div>
+        <div class="big">Materializar la escalada completa.</div>
+        <div class="sub">Del mockup a un prototipo probable en contexto real de uso.</div>
+      </div>
+      <div class="step">
+        <div class="k">02 · Validación</div>
+        <div class="big">Testeo contra línea base.</div>
+        <div class="sub">Indicador: frecuencia y duración del uso de arrastre — no el tiempo total.</div>
+      </div>
+      <div class="step">
+        <div class="k">03 · Longitudinal</div>
+        <div class="big">¿Se sostiene en el tiempo?</div>
+        <div class="sub">Éxito = necesitar menos escalada, no prescindir del sistema.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 17 · MAPA DE ACTORES  ·  ~30 s
+       GUION:
+       - Antesala del cierre: las mismas disciplinas están en los dos lados;
+         lo que cambia es a qué interés sirven.
+       - No leas las nueve casillas. Nombra los tres bloques y el usuario al centro.
+       ========================================================== -->
+  <section class="slide" id="s17">
+    <div class="eyebrow"><b>13</b> &nbsp;·&nbsp; Mapa de actores</div>
+    <div class="actores">
+      <div class="actor-band capture">
+        <h3>Quienes capturan la atención</h3>
+        <div class="sub">Interés económico: maximizar tiempo de pantalla</div>
+        <div class="actor-row">
+          <div class="actor-card"><div class="t">Plataformas</div><div class="d">TikTok, Meta, YouTube</div></div>
+          <div class="actor-card"><div class="t">Fabricantes</div><div class="d">Apple, Samsung, Google</div></div>
+          <div class="actor-card"><div class="t">Equipos de diseño</div><div class="d">UX, motion, visual, psicólogos, neurocientíficos</div></div>
+        </div>
+      </div>
+
+      <div class="sensing">⌄ &nbsp; empujan sobre &nbsp; ⌄</div>
+
+      <div class="actor-mid">
+        <div class="t">El usuario</div>
+        <div class="d">Quien sufre el problema. Perfiles: jóvenes, infancias, sobrecarga laboral, sin pasatiempos.</div>
+      </div>
+
+      <div class="sensing">⌃ &nbsp; sostienen a &nbsp; ⌃</div>
+
+      <div class="actor-band ally">
+        <h3>Quienes intervienen a favor del usuario</h3>
+        <div class="sub">Orientados a restituir la autonomía atencional</div>
+        <div class="actor-row">
+          <div class="actor-card"><div class="t">El proyecto</div><div class="d">Diseñador que usa las mismas herramientas</div></div>
+          <div class="actor-card"><div class="t">Expertos aliados</div><div class="d">Psicólogos, neurocientíficos</div></div>
+          <div class="actor-card dashed"><div class="t">Comunidad y Estado</div><div class="d">Tech sobriety, reguladores, colegios, familias</div></div>
+        </div>
+      </div>
+    </div>
+    <p class="verdict">Las mismas disciplinas —UX, psicología, neurociencia— aparecen en ambos bandos.
+      La herramienta no es buena ni mala: <b>depende de a qué interés sirve.</b></p>
+  </section>
+
+  <!-- ==========================================================
+       DIAPO 18 · CIERRE  ·  ~30 s
+       GUION:
+       - Vuelve al reencuadre ético del mapa de actores: las mismas disciplinas
+         están en los dos lados; lo que cambia es a qué interés sirven.
+       - Cierra donde abriste: el mismo video, ahora con la pregunta dada vuelta.
+       - Última frase y silencio. No agregues nada después.
+       ========================================================== -->
+  <section class="slide" id="s18">
+    <div class="videoslot" style="filter:saturate(.4)">
+      <video class="bgvideo" data-video
+       src="./media/scroll-arto-suraj-pexels.mp4"
+       poster="media/arrastre-poster.jpg"
+       autoplay muted loop playsinline preload="auto"></video>
+    </div>
+    <div class="veil"></div>
+    <div class="opening">
+      <h2>UX, psicología y neurociencia no tienen dueño.</h2>
+      <p class="flip">Las mismas herramientas — del otro lado</p>
+      <div class="credits">
+        <div class="t">Cautiverio Voluntario: cómo se diseña la libertad</div>
+        <div class="m">Gracias · Santiago Gaete Fernández</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div class="rail"><div class="thumb" id="thumb"></div></div>
+<div class="counter"><b id="cur">01</b> / <span id="tot">18</span></div>
+<div class="help">← →  ·  F pantalla completa</div>
+
+<script>
+(function(){
+  const slides=[...document.querySelectorAll('.slide')];
+  const thumb=document.getElementById('thumb');
+  const cur=document.getElementById('cur');
+  document.getElementById('tot').textContent=String(slides.length).padStart(2,'0');
+  let i=0;
+
+  function pad(n){return String(n).padStart(2,'0')}
+
+  function go(n){
+    i=Math.max(0,Math.min(slides.length-1,n));
+    slides.forEach((s,k)=>s.classList.toggle('active',k===i));
+    const h=100/slides.length;
+    thumb.style.height=h+'%';
+    thumb.style.top=(h*i)+'%';
+    cur.textContent=pad(i+1);
+  }
+
+  document.addEventListener('keydown',e=>{
+    if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();go(i+1)}
+    else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(i-1)}
+    else if(e.key==='Home'){go(0)}
+    else if(e.key==='End'){go(slides.length-1)}
+    else if(e.key==='f'||e.key==='F'){
+      document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();
+    }
+  });
+
+  let x0=null;
+  document.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
+  document.addEventListener('touchend',e=>{
+    if(x0===null)return;
+    const dx=e.changedTouches[0].clientX-x0;
+    if(Math.abs(dx)>50) go(dx<0?i+1:i-1);
+    x0=null;
+  },{passive:true});
+
+  document.addEventListener('click',e=>{
+    if(e.clientX>window.innerWidth*0.5) go(i+1); else go(i-1);
+  });
+
+  go(0);
+})();
+</script>
+</body>
+</html>
