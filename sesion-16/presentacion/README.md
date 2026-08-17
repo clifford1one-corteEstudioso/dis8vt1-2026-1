@@ -14,11 +14,11 @@ Mi nombre es Santiago Gaete, y les vengo a hablar de Cuativerio Voluntario: cóm
 
 **34 horas**. 34 horas, por usuario, por mes, sólo en tiktok es el promedio registrado durante 2024.
 
-es decir que cada mes perdemos 1.5 días de nuestra vida.
+es decir que cada mes perdemos 1.5 días de nuestra vida. 
+
+Sin embargo, este no es el problema en sí, sino el tamaño del terreno donde ocurre el problema
 
 ## diapo-03: aristas
-
-es que esto no es coincidencia, si analizamos de manera _____ el flujo del usuario, a grandes rasgos tiene 2 posibilidades: Seguir viendo otro tiktok, o salir. Seguir viendo tiktok requiere el esfuerzo de deslizar un dedo por la pantalla, sin importar en qué parte de esta. Salir de la app requiere presionar un lugar específico de la pantalla, y de hecho, al presionar el boton para ir atrás, tiktok pasa al siguiente tikitok, y te indica "presiona otr a vez para salir".
 
 Si lo miramos gesto por gesto, el usuario tiene dos salidas: ver otro, o irse. Ver otro es deslizar un dedo, en cualquier parte de la pantalla. Irse es acertar en un punto exacto. Y si usas el botón de atrás, TikTok avanza al siguiente video y te indica: "presiona otra vez para salir".
 
@@ -34,11 +34,10 @@ Por lo que considera el "modelo de negocio" como la 3ra arista de este problema.
 
 ## diapo-04: usuario
 
-"Pasando al perfil de usuario, nos enfocamos en adultos jóvenes con un uso no intencional recurrente, pero con un matiz crítico: nuestro perfil central es un creativo que necesita Instagram profesionalmente. Es su portafolio, su canal de atención a clientes y su herramienta de trabajo. Por ende, no puede abandonar la app.
-
-Aquí es donde se genera el verdadero conflicto del diseño: a diferencia de un usuario común, a quien podríamos sugerirle simplemente 'usar menos la app' o bloquearla, este usuario tiene un uso dirigido con un propósito laboral verificable. El problema surge en sus momentos de tiempo no estructurado —al despertar, antes de dormir o en sus pausas laborales—. En esos huecos, el instante crítico es el agarre automático: abre la app con la intención deliberada de trabajar o revisar algo del trabajo, pero termina atrapado en el scroll compulsivo.
-
-Como el usuario no puede irse, la intervención que proponemos no puede eliminar el acceso ni bloquear la plataforma de manera drástica. El desafío de nuestro diseño —y la propuesta de valor— radica en distinguir y separar el uso productivo del compulsivo dentro de la misma interfaz."
+Mi usuario central es un creativo que no puede borrar Instagram: ahí está su portafolio y por ahí le escriben sus clientes.
+Eso descarta la solución obvia. No puedo bloquear ni sugerirle usar menos, porque su uso dirigido es trabajo verificable.
+El problema aparece en el tiempo no estructurado —al despertar, en una pausa, antes de dormir—: abre la app para trabajar y termina en el scroll.
+El desafío es separar los dos usos dentro de la misma interfaz.
 
 ## diapo-05: recogimiento
 
@@ -75,3 +74,25 @@ Y finalmente, la Economía de la Atención nos revela el PORQUÉ lo explotan: Es
 ## diapo-11: propuesta, portada
 
 ## diapo-12: propuesta, features
+
+bla bla
+
+Este sistema de escalada y pantallas que acaban de ver es el corazón operativo de la propuesta. Sin embargo, fue precisamente al sentarme a prototipar este flujo cuando me topé con el hallazgo teórico más importante del proyecto, uno que ocurrió después de haber entregado la memoria escrita y que redefine por completo la quinta categoría de mi matriz: la Insatisfacción
+
+## diapo-13: insatisfacción
+
+En el benchmark la casilla de Insatisfacción quedó vacía. No la tomé de ninguna app existente porque ninguna plataforma comercial diseñaría algo para arruinar el placer de su propio estímulo. La derivé del marco teórico: de la distinción entre wanting y liking.
+Y al llegar al prototipado me propuse poblarla. Diseñé un mecanismo que atacara el liking, el placer del contenido.
+No funcionó. Y al entender por qué, encontré la razón real de que esa casilla esté vacía.
+
+## diapo-14: insatisfacción, brecha
+
+## diapo 15: descartes y definición
+
+Descarté bajar la entrega por tres razones.
+La primera es de entorno: alterar el contenido exige intervenir el servidor de Meta o TikTok. Viola sus términos de servicio, y una intervención así no es practicable.
+La segunda viene del usuario. Mi usuario no quiere un algoritmo defectuoso: lo necesita excelente para cuando sí decide mirar. Degradar el contenido destruiría el valor por el que no puede irse.
+Y la tercera es la que importa: el liking nunca fue el problema. Nadie disfruta la hora y media de reels. La sigue queriendo igual.
+La palanca de esta categoría no es el placer. Es la anticipación.
+Por eso queda una sola vía: la expectativa. La categoría no se disuelve —opera bajo una máxima: palanca propia, vehículo prestado.
+La declaración de intención y el contador acumulado no son alertas de consciencia. Son la quinta categoría materializada: al explicitar su expectativa, el usuario genera él mismo el error de predicción cuando cae en el arrastre. Y ese error no opera sobre el placer: opera sobre el impulso que lo trae de vuelta.
